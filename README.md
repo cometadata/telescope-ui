@@ -45,3 +45,7 @@ Deployed via Vercel. Branch → environment mapping:
 4. PR from `dev` → `staging` when ready
 5. PR from `staging` → `main` when ready
 6. Create tag (e.g., `v1.0.0`) on `main` for production deploy
+
+## Related
+
+- [telescope-index](https://github.com/cometadata/telescope-index) - Data pipeline for indexing arXiv works to Typesense
