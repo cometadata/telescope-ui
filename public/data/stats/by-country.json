@@ -1,0 +1,686 @@
+[
+  {
+    "country": "United States",
+    "work_count": 210829
+  },
+  {
+    "country": "China",
+    "work_count": 136902
+  },
+  {
+    "country": "United Kingdom",
+    "work_count": 51422
+  },
+  {
+    "country": "Germany",
+    "work_count": 42762
+  },
+  {
+    "country": "Canada",
+    "work_count": 27134
+  },
+  {
+    "country": "France",
+    "work_count": 19368
+  },
+  {
+    "country": "Australia",
+    "work_count": 19005
+  },
+  {
+    "country": "Japan",
+    "work_count": 15704
+  },
+  {
+    "country": "Hong Kong",
+    "work_count": 15702
+  },
+  {
+    "country": "Italy",
+    "work_count": 15532
+  },
+  {
+    "country": "India",
+    "work_count": 15230
+  },
+  {
+    "country": "South Korea",
+    "work_count": 14732
+  },
+  {
+    "country": "Singapore",
+    "work_count": 14225
+  },
+  {
+    "country": "Switzerland",
+    "work_count": 13738
+  },
+  {
+    "country": "The Netherlands",
+    "work_count": 10700
+  },
+  {
+    "country": "Spain",
+    "work_count": 9550
+  },
+  {
+    "country": "Israel",
+    "work_count": 6794
+  },
+  {
+    "country": "Sweden",
+    "work_count": 5878
+  },
+  {
+    "country": "Austria",
+    "work_count": 4570
+  },
+  {
+    "country": "Taiwan",
+    "work_count": 4414
+  },
+  {
+    "country": "Brazil",
+    "work_count": 4356
+  },
+  {
+    "country": "Russia",
+    "work_count": 4302
+  },
+  {
+    "country": "Belgium",
+    "work_count": 4118
+  },
+  {
+    "country": "Iran",
+    "work_count": 3922
+  },
+  {
+    "country": "Finland",
+    "work_count": 3875
+  },
+  {
+    "country": "Poland",
+    "work_count": 3619
+  },
+  {
+    "country": "Denmark",
+    "work_count": 3546
+  },
+  {
+    "country": "United Arab Emirates",
+    "work_count": 3184
+  },
+  {
+    "country": "Norway",
+    "work_count": 3024
+  },
+  {
+    "country": "Türkiye",
+    "work_count": 2689
+  },
+  {
+    "country": "Greece",
+    "work_count": 2685
+  },
+  {
+    "country": "Ireland",
+    "work_count": 2408
+  },
+  {
+    "country": "Portugal",
+    "work_count": 2365
+  },
+  {
+    "country": "Bangladesh",
+    "work_count": 2187
+  },
+  {
+    "country": "Saudi Arabia",
+    "work_count": 2150
+  },
+  {
+    "country": "Czechia",
+    "work_count": 2088
+  },
+  {
+    "country": "Vietnam",
+    "work_count": 1599
+  },
+  {
+    "country": "Pakistan",
+    "work_count": 1375
+  },
+  {
+    "country": "South Africa",
+    "work_count": 1008
+  },
+  {
+    "country": "New Zealand",
+    "work_count": 971
+  },
+  {
+    "country": "Romania",
+    "work_count": 914
+  },
+  {
+    "country": "Egypt",
+    "work_count": 871
+  },
+  {
+    "country": "Hungary",
+    "work_count": 775
+  },
+  {
+    "country": "Mexico",
+    "work_count": 721
+  },
+  {
+    "country": "Luxembourg",
+    "work_count": 713
+  },
+  {
+    "country": "Slovenia",
+    "work_count": 709
+  },
+  {
+    "country": "Malaysia",
+    "work_count": 660
+  },
+  {
+    "country": "Argentina",
+    "work_count": 658
+  },
+  {
+    "country": "Chile",
+    "work_count": 658
+  },
+  {
+    "country": "Qatar",
+    "work_count": 646
+  },
+  {
+    "country": "Macao",
+    "work_count": 629
+  },
+  {
+    "country": "Indonesia",
+    "work_count": 527
+  },
+  {
+    "country": "Colombia",
+    "work_count": 478
+  },
+  {
+    "country": "Thailand",
+    "work_count": 464
+  },
+  {
+    "country": "Iraq",
+    "work_count": 434
+  },
+  {
+    "country": "Ukraine",
+    "work_count": 423
+  },
+  {
+    "country": "Croatia",
+    "work_count": 409
+  },
+  {
+    "country": "Sri Lanka",
+    "work_count": 376
+  },
+  {
+    "country": "Estonia",
+    "work_count": 365
+  },
+  {
+    "country": "Tunisia",
+    "work_count": 362
+  },
+  {
+    "country": "Slovakia",
+    "work_count": 336
+  },
+  {
+    "country": "Cyprus",
+    "work_count": 330
+  },
+  {
+    "country": "Serbia",
+    "work_count": 329
+  },
+  {
+    "country": "Bulgaria",
+    "work_count": 307
+  },
+  {
+    "country": "Nigeria",
+    "work_count": 303
+  },
+  {
+    "country": "Morocco",
+    "work_count": 292
+  },
+  {
+    "country": "Lebanon",
+    "work_count": 291
+  },
+  {
+    "country": "Philippines",
+    "work_count": 251
+  },
+  {
+    "country": "Jordan",
+    "work_count": 236
+  },
+  {
+    "country": "Algeria",
+    "work_count": 235
+  },
+  {
+    "country": "Kazakhstan",
+    "work_count": 179
+  },
+  {
+    "country": "Malta",
+    "work_count": 172
+  },
+  {
+    "country": "Lithuania",
+    "work_count": 170
+  },
+  {
+    "country": "Nepal",
+    "work_count": 145
+  },
+  {
+    "country": "Kenya",
+    "work_count": 145
+  },
+  {
+    "country": "Iceland",
+    "work_count": 119
+  },
+  {
+    "country": "Georgia",
+    "work_count": 115
+  },
+  {
+    "country": "Uruguay",
+    "work_count": 111
+  },
+  {
+    "country": "Peru",
+    "work_count": 105
+  },
+  {
+    "country": "Ethiopia",
+    "work_count": 100
+  },
+  {
+    "country": "Dominican Republic",
+    "work_count": 98
+  },
+  {
+    "country": "Palestine",
+    "work_count": 96
+  },
+  {
+    "country": "Ghana",
+    "work_count": 83
+  },
+  {
+    "country": "Latvia",
+    "work_count": 81
+  },
+  {
+    "country": "Ecuador",
+    "work_count": 80
+  },
+  {
+    "country": "Uganda",
+    "work_count": 79
+  },
+  {
+    "country": "Venezuela",
+    "work_count": 75
+  },
+  {
+    "country": "Armenia",
+    "work_count": 74
+  },
+  {
+    "country": "Kuwait",
+    "work_count": 73
+  },
+  {
+    "country": "Burundi",
+    "work_count": 70
+  },
+  {
+    "country": "Brunei",
+    "work_count": 56
+  },
+  {
+    "country": "Bosnia and Herzegovina",
+    "work_count": 56
+  },
+  {
+    "country": "North Macedonia",
+    "work_count": 51
+  },
+  {
+    "country": "Rwanda",
+    "work_count": 51
+  },
+  {
+    "country": "Uzbekistan",
+    "work_count": 51
+  },
+  {
+    "country": "Costa Rica",
+    "work_count": 48
+  },
+  {
+    "country": "Azerbaijan",
+    "work_count": 46
+  },
+  {
+    "country": "Liechtenstein",
+    "work_count": 45
+  },
+  {
+    "country": "Belarus",
+    "work_count": 44
+  },
+  {
+    "country": "Oman",
+    "work_count": 42
+  },
+  {
+    "country": "Cambodia",
+    "work_count": 41
+  },
+  {
+    "country": "Sudan",
+    "work_count": 37
+  },
+  {
+    "country": "Senegal",
+    "work_count": 36
+  },
+  {
+    "country": "Cuba",
+    "work_count": 35
+  },
+  {
+    "country": "Tanzania",
+    "work_count": 35
+  },
+  {
+    "country": "Cameroon",
+    "work_count": 34
+  },
+  {
+    "country": "Montenegro",
+    "work_count": 31
+  },
+  {
+    "country": "Syria",
+    "work_count": 30
+  },
+  {
+    "country": "Myanmar",
+    "work_count": 28
+  },
+  {
+    "country": "Mongolia",
+    "work_count": 27
+  },
+  {
+    "country": "Yemen",
+    "work_count": 25
+  },
+  {
+    "country": "Bolivia",
+    "work_count": 24
+  },
+  {
+    "country": "Puerto Rico",
+    "work_count": 20
+  },
+  {
+    "country": "Mali",
+    "work_count": 20
+  },
+  {
+    "country": "Ivory Coast",
+    "work_count": 19
+  },
+  {
+    "country": "Réunion",
+    "work_count": 18
+  },
+  {
+    "country": "Zambia",
+    "work_count": 18
+  },
+  {
+    "country": "Bahrain",
+    "work_count": 16
+  },
+  {
+    "country": "Libya",
+    "work_count": 16
+  },
+  {
+    "country": "Moldova",
+    "work_count": 15
+  },
+  {
+    "country": "Kyrgyzstan",
+    "work_count": 15
+  },
+  {
+    "country": "Benin",
+    "work_count": 12
+  },
+  {
+    "country": "French Polynesia",
+    "work_count": 12
+  },
+  {
+    "country": "Malawi",
+    "work_count": 12
+  },
+  {
+    "country": "Trinidad and Tobago",
+    "work_count": 11
+  },
+  {
+    "country": "Maldives",
+    "work_count": 11
+  },
+  {
+    "country": "Fiji",
+    "work_count": 10
+  },
+  {
+    "country": "Mauritius",
+    "work_count": 9
+  },
+  {
+    "country": "Albania",
+    "work_count": 9
+  },
+  {
+    "country": "New Caledonia",
+    "work_count": 8
+  },
+  {
+    "country": "Paraguay",
+    "work_count": 7
+  },
+  {
+    "country": "Mozambique",
+    "work_count": 7
+  },
+  {
+    "country": "Madagascar",
+    "work_count": 6
+  },
+  {
+    "country": "DR Congo",
+    "work_count": 6
+  },
+  {
+    "country": "North Korea",
+    "work_count": 5
+  },
+  {
+    "country": "Saint Lucia",
+    "work_count": 5
+  },
+  {
+    "country": "Panama",
+    "work_count": 5
+  },
+  {
+    "country": "Guadeloupe",
+    "work_count": 4
+  },
+  {
+    "country": "Honduras",
+    "work_count": 4
+  },
+  {
+    "country": "Togo",
+    "work_count": 4
+  },
+  {
+    "country": "Jamaica",
+    "work_count": 4
+  },
+  {
+    "country": "Afghanistan",
+    "work_count": 4
+  },
+  {
+    "country": "Guatemala",
+    "work_count": 3
+  },
+  {
+    "country": "Namibia",
+    "work_count": 3
+  },
+  {
+    "country": "Haiti",
+    "work_count": 3
+  },
+  {
+    "country": "Barbados",
+    "work_count": 3
+  },
+  {
+    "country": "Zimbabwe",
+    "work_count": 3
+  },
+  {
+    "country": "Botswana",
+    "work_count": 2
+  },
+  {
+    "country": "Jersey",
+    "work_count": 2
+  },
+  {
+    "country": "Bhutan",
+    "work_count": 2
+  },
+  {
+    "country": "El Salvador",
+    "work_count": 2
+  },
+  {
+    "country": "Congo Republic",
+    "work_count": 2
+  },
+  {
+    "country": "Burkina Faso",
+    "work_count": 2
+  },
+  {
+    "country": "St Kitts and Nevis",
+    "work_count": 2
+  },
+  {
+    "country": "American Samoa",
+    "work_count": 2
+  },
+  {
+    "country": "Chad",
+    "work_count": 2
+  },
+  {
+    "country": "Tuvalu",
+    "work_count": 2
+  },
+  {
+    "country": "Vatican City",
+    "work_count": 1
+  },
+  {
+    "country": "Belize",
+    "work_count": 1
+  },
+  {
+    "country": "Kosovo",
+    "work_count": 1
+  },
+  {
+    "country": "Mauritania",
+    "work_count": 1
+  },
+  {
+    "country": "Liberia",
+    "work_count": 1
+  },
+  {
+    "country": "Sierra Leone",
+    "work_count": 1
+  },
+  {
+    "country": "Guyana",
+    "work_count": 1
+  },
+  {
+    "country": "Micronesia",
+    "work_count": 1
+  },
+  {
+    "country": "Laos",
+    "work_count": 1
+  },
+  {
+    "country": "The Gambia",
+    "work_count": 1
+  },
+  {
+    "country": "Somalia",
+    "work_count": 1
+  },
+  {
+    "country": "Djibouti",
+    "work_count": 1
+  },
+  {
+    "country": "Tajikistan",
+    "work_count": 1
+  },
+  {
+    "country": "Comoros",
+    "work_count": 1
+  }
+]

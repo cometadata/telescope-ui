@@ -1,0 +1,157 @@
+@import "tailwindcss";
+
+/* Enable class-based dark mode for Tailwind v4 */
+@variant dark (&:where(.dark, .dark *));
+
+:root {
+  --background: #ffffff;
+  --foreground: #111827;
+  --color-primary: #000000;
+  --color-border: #e5e7eb;
+  --color-text-secondary: #6b7280;
+
+  /* Chart colors - light mode */
+  --chart-stroke: #000000;
+  --chart-fill: #e5e7eb;
+  --chart-grid: #e5e7eb;
+  --chart-axis: #6b7280;
+  --chart-tooltip-bg: #ffffff;
+  --chart-tooltip-border: #e5e7eb;
+  --chart-tooltip-text: #111827;
+}
+
+/* Dark mode variables - true black & white */
+.dark {
+  --background: #0a0a0a;
+  --foreground: #fafafa;
+  --color-primary: #ffffff;
+  --color-border: #404040;
+  --color-text-secondary: #a3a3a3;
+
+  /* Chart colors - dark mode */
+  --chart-stroke: #e5e5e5;
+  --chart-fill: #404040;
+  --chart-grid: #404040;
+  --chart-axis: #a3a3a3;
+  --chart-tooltip-bg: #262626;
+  --chart-tooltip-border: #404040;
+  --chart-tooltip-text: #fafafa;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-plus-jakarta);
+}
+
+html {
+  overflow-x: hidden;
+  overflow-y: scroll; /* Always show scrollbar track to prevent jitter when content loads */
+}
+
+body {
+  overflow-x: hidden;
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-plus-jakarta), system-ui, sans-serif;
+}
+
+/* Hide scrollbar but keep functionality */
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+/* Thin, subtle scrollbar styling */
+.scrollbar-thin {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(156, 163, 175, 0.5) transparent;
+}
+
+.scrollbar-thin::-webkit-scrollbar {
+  width: 6px;
+}
+
+.scrollbar-thin::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.scrollbar-thin::-webkit-scrollbar-thumb {
+  background-color: rgba(156, 163, 175, 0.5);
+  border-radius: 3px;
+}
+
+.scrollbar-thin::-webkit-scrollbar-thumb:hover {
+  background-color: rgba(156, 163, 175, 0.7);
+}
+
+/* Dark mode variant */
+.dark .scrollbar-thin {
+  scrollbar-color: rgba(163, 163, 163, 0.5) transparent;
+}
+
+.dark .scrollbar-thin::-webkit-scrollbar-thumb {
+  background-color: rgba(163, 163, 163, 0.5);
+}
+
+.dark .scrollbar-thin::-webkit-scrollbar-thumb:hover {
+  background-color: rgba(163, 163, 163, 0.7);
+}
+
+/* Smooth fade-in animation for content */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(4px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-in {
+  opacity: 0;
+  animation: fadeIn 0.2s ease-out both;
+}
+
+/* Staggered fade-in for lists */
+.animate-fade-in-stagger > * {
+  opacity: 0;
+  animation: fadeIn 0.2s ease-out both;
+}
+
+.animate-fade-in-stagger > *:nth-child(1) { animation-delay: 0ms; }
+.animate-fade-in-stagger > *:nth-child(2) { animation-delay: 20ms; }
+.animate-fade-in-stagger > *:nth-child(3) { animation-delay: 40ms; }
+.animate-fade-in-stagger > *:nth-child(4) { animation-delay: 60ms; }
+.animate-fade-in-stagger > *:nth-child(5) { animation-delay: 80ms; }
+.animate-fade-in-stagger > *:nth-child(6) { animation-delay: 100ms; }
+.animate-fade-in-stagger > *:nth-child(7) { animation-delay: 120ms; }
+.animate-fade-in-stagger > *:nth-child(8) { animation-delay: 140ms; }
+.animate-fade-in-stagger > *:nth-child(9) { animation-delay: 160ms; }
+.animate-fade-in-stagger > *:nth-child(10) { animation-delay: 180ms; }
+.animate-fade-in-stagger > *:nth-child(n+11) { animation-delay: 200ms; }
+
+/* Mobile drawer animations */
+@keyframes slideInLeft {
+  from { transform: translateX(-100%); }
+  to { transform: translateX(0); }
+}
+
+@keyframes slideInUp {
+  from { transform: translateY(100%); }
+  to { transform: translateY(0); }
+}
+
+.animate-slide-in-left {
+  animation: slideInLeft 0.2s ease-out;
+}
+
+.animate-slide-in-up {
+  animation: slideInUp 0.2s ease-out;
+}

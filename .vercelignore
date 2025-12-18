@@ -1,0 +1,15 @@
+# Tests not needed for deployment
+tests/
+playwright.config.ts
+vitest.config.ts
+playwright-report/
+test-results/
+coverage/
+
+# Large data files
+public/data/typesense-documents.jsonl
+public/data/typesense-institutions.jsonl
+public/data/institutions/
+
+# Dev files
+.next/
