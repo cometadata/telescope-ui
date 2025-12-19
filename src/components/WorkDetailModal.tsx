@@ -20,6 +20,9 @@ interface WorkDetailModalProps {
     subject_codes: string[];
     author_affiliations?: string;
     publication_link?: string;
+    software_repository?: string;
+    software_references?: string[];
+    has_software?: boolean;
   };
 }
 
@@ -105,6 +108,24 @@ export function WorkDetailModal({ work }: WorkDetailModalProps) {
           </div>
         )}
 
+        {work.software_repository && (
+          <div>
+            <span className="text-gray-500 dark:text-neutral-400 uppercase text-xs tracking-wide">
+              Repository
+            </span>
+            <p>
+              <a
+                href={work.software_repository}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-gray-900 dark:text-neutral-100 hover:underline"
+              >
+                {work.software_repository}
+              </a>
+            </p>
+          </div>
+        )}
+
         {work.publication_link && (
           <div>
             <span className="text-gray-500 dark:text-neutral-400 uppercase text-xs tracking-wide">
@@ -167,6 +188,40 @@ export function WorkDetailModal({ work }: WorkDetailModalProps) {
                 </div>
               );
             })}
+          </div>
+        </div>
+      )}
+
+      {(work.software_repository || (work.software_references && work.software_references.length > 0)) && (
+        <div>
+          <span className="text-gray-500 dark:text-neutral-400 uppercase text-xs tracking-wide">
+            Software
+          </span>
+          <div className="mt-1 space-y-1">
+            {work.software_repository && (
+              <p className="text-sm">
+                <a
+                  href={work.software_repository}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-gray-900 dark:text-neutral-100 hover:underline"
+                >
+                  {work.software_repository.replace(/^https?:\/\//, "")}
+                </a>
+              </p>
+            )}
+            {work.software_references?.map((url, idx) => (
+              <p key={idx} className="text-sm">
+                <a
+                  href={url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-gray-900 dark:text-neutral-100 hover:underline"
+                >
+                  {url.replace(/^https?:\/\//, "")}
+                </a>
+              </p>
+            ))}
           </div>
         </div>
       )}
