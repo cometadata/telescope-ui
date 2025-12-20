@@ -43,3 +43,5 @@ yarn-error.log*
 public/data/typesense-documents.jsonl
 public/data/typesense-institutions.jsonl
 public/data/institutions/
+.vercel
+.env*.local

@@ -7,6 +7,22 @@ import * as VisuallyHidden from "@radix-ui/react-visually-hidden";
 import { WorkDetailModal } from "./WorkDetailModal";
 import { getSubjectName } from "@/lib/subjects";
 
+function CodeIcon({ className }: { className?: string }) {
+  return (
+    <svg
+      className={className}
+      viewBox="0 0 16 16"
+      fill="currentColor"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        fillRule="evenodd"
+        d="M4.72 3.22a.75.75 0 011.06 1.06L2.06 8l3.72 3.72a.75.75 0 11-1.06 1.06L.47 8.53a.75.75 0 010-1.06l4.25-4.25zm6.56 0a.75.75 0 10-1.06 1.06L13.94 8l-3.72 3.72a.75.75 0 101.06 1.06l4.25-4.25a.75.75 0 000-1.06l-4.25-4.25z"
+      />
+    </svg>
+  );
+}
+
 interface WorkCardProps {
   work: {
     id: string;
@@ -25,6 +41,9 @@ interface WorkCardProps {
     subject_codes: string[];
     author_affiliations?: string;
     publication_link?: string;
+    software_repository?: string;
+    software_references?: string[];
+    has_software?: boolean;
   };
 }
 
@@ -79,6 +98,19 @@ function WorkCardContent({ work, onTitleClick }: WorkCardProps & { onTitleClick?
             onClick={(e) => e.stopPropagation()}
           >
             DOI
+          </a>
+        )}
+
+        {work.software_repository && (
+          <a
+            href={work.software_repository}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-gray-700 dark:text-neutral-300 hover:text-gray-900 dark:hover:text-neutral-100"
+            onClick={(e) => e.stopPropagation()}
+            title="View repository"
+          >
+            <CodeIcon className="w-4 h-4" />
           </a>
         )}
 
