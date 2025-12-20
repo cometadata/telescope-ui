@@ -1,171 +1,171 @@
 [
   {
     "country": "United States",
-    "work_count": 210829
+    "work_count": 212654
   },
   {
     "country": "China",
-    "work_count": 136902
+    "work_count": 136377
   },
   {
     "country": "United Kingdom",
-    "work_count": 51422
+    "work_count": 49072
   },
   {
     "country": "Germany",
-    "work_count": 42762
+    "work_count": 42698
   },
   {
     "country": "Canada",
-    "work_count": 27134
+    "work_count": 27095
   },
   {
     "country": "France",
-    "work_count": 19368
+    "work_count": 19336
   },
   {
     "country": "Australia",
-    "work_count": 19005
+    "work_count": 18966
   },
   {
     "country": "Japan",
-    "work_count": 15704
+    "work_count": 15672
   },
   {
     "country": "Hong Kong",
-    "work_count": 15702
+    "work_count": 15660
   },
   {
     "country": "Italy",
-    "work_count": 15532
+    "work_count": 15503
   },
   {
     "country": "India",
-    "work_count": 15230
+    "work_count": 15188
   },
   {
     "country": "South Korea",
-    "work_count": 14732
+    "work_count": 14694
   },
   {
     "country": "Singapore",
-    "work_count": 14225
+    "work_count": 14202
   },
   {
     "country": "Switzerland",
-    "work_count": 13738
+    "work_count": 13718
   },
   {
     "country": "The Netherlands",
-    "work_count": 10700
+    "work_count": 10676
   },
   {
     "country": "Spain",
-    "work_count": 9550
+    "work_count": 9509
   },
   {
     "country": "Israel",
-    "work_count": 6794
+    "work_count": 6782
   },
   {
     "country": "Sweden",
-    "work_count": 5878
+    "work_count": 5863
   },
   {
     "country": "Austria",
-    "work_count": 4570
+    "work_count": 4559
   },
   {
     "country": "Taiwan",
-    "work_count": 4414
+    "work_count": 4406
   },
   {
     "country": "Brazil",
-    "work_count": 4356
+    "work_count": 4347
   },
   {
     "country": "Russia",
-    "work_count": 4302
+    "work_count": 4296
   },
   {
     "country": "Belgium",
-    "work_count": 4118
+    "work_count": 4112
   },
   {
     "country": "Iran",
-    "work_count": 3922
+    "work_count": 3913
   },
   {
     "country": "Finland",
-    "work_count": 3875
+    "work_count": 3863
   },
   {
     "country": "Poland",
-    "work_count": 3619
+    "work_count": 3611
   },
   {
     "country": "Denmark",
-    "work_count": 3546
+    "work_count": 3541
   },
   {
     "country": "United Arab Emirates",
-    "work_count": 3184
+    "work_count": 3179
   },
   {
     "country": "Norway",
-    "work_count": 3024
-  },
-  {
-    "country": "Türkiye",
-    "work_count": 2689
+    "work_count": 3016
   },
   {
     "country": "Greece",
-    "work_count": 2685
+    "work_count": 2682
+  },
+  {
+    "country": "Türkiye",
+    "work_count": 2681
   },
   {
     "country": "Ireland",
-    "work_count": 2408
+    "work_count": 2397
   },
   {
     "country": "Portugal",
-    "work_count": 2365
+    "work_count": 2359
   },
   {
     "country": "Bangladesh",
-    "work_count": 2187
+    "work_count": 2176
   },
   {
     "country": "Saudi Arabia",
-    "work_count": 2150
+    "work_count": 2137
   },
   {
     "country": "Czechia",
-    "work_count": 2088
+    "work_count": 2085
   },
   {
     "country": "Vietnam",
-    "work_count": 1599
+    "work_count": 1590
   },
   {
     "country": "Pakistan",
-    "work_count": 1375
+    "work_count": 1371
   },
   {
     "country": "South Africa",
-    "work_count": 1008
+    "work_count": 1007
   },
   {
     "country": "New Zealand",
-    "work_count": 971
+    "work_count": 968
   },
   {
     "country": "Romania",
-    "work_count": 914
+    "work_count": 910
   },
   {
     "country": "Egypt",
-    "work_count": 871
+    "work_count": 867
   },
   {
     "country": "Hungary",
@@ -173,55 +173,55 @@
   },
   {
     "country": "Mexico",
-    "work_count": 721
-  },
-  {
-    "country": "Luxembourg",
-    "work_count": 713
+    "work_count": 720
   },
   {
     "country": "Slovenia",
     "work_count": 709
   },
   {
-    "country": "Malaysia",
-    "work_count": 660
+    "country": "Luxembourg",
+    "work_count": 708
   },
   {
     "country": "Argentina",
     "work_count": 658
   },
   {
+    "country": "Malaysia",
+    "work_count": 657
+  },
+  {
     "country": "Chile",
-    "work_count": 658
+    "work_count": 657
   },
   {
     "country": "Qatar",
-    "work_count": 646
+    "work_count": 645
   },
   {
     "country": "Macao",
-    "work_count": 629
+    "work_count": 624
   },
   {
     "country": "Indonesia",
-    "work_count": 527
+    "work_count": 526
   },
   {
     "country": "Colombia",
-    "work_count": 478
+    "work_count": 477
   },
   {
     "country": "Thailand",
-    "work_count": 464
+    "work_count": 460
   },
   {
     "country": "Iraq",
-    "work_count": 434
+    "work_count": 430
   },
   {
     "country": "Ukraine",
-    "work_count": 423
+    "work_count": 422
   },
   {
     "country": "Croatia",
@@ -241,23 +241,23 @@
   },
   {
     "country": "Slovakia",
-    "work_count": 336
-  },
-  {
-    "country": "Cyprus",
-    "work_count": 330
+    "work_count": 335
   },
   {
     "country": "Serbia",
-    "work_count": 329
+    "work_count": 328
+  },
+  {
+    "country": "Cyprus",
+    "work_count": 328
   },
   {
     "country": "Bulgaria",
-    "work_count": 307
+    "work_count": 306
   },
   {
     "country": "Nigeria",
-    "work_count": 303
+    "work_count": 301
   },
   {
     "country": "Morocco",
@@ -265,23 +265,23 @@
   },
   {
     "country": "Lebanon",
-    "work_count": 291
+    "work_count": 290
   },
   {
     "country": "Philippines",
     "work_count": 251
   },
   {
-    "country": "Jordan",
-    "work_count": 236
-  },
-  {
     "country": "Algeria",
     "work_count": 235
   },
   {
+    "country": "Jordan",
+    "work_count": 235
+  },
+  {
     "country": "Kazakhstan",
-    "work_count": 179
+    "work_count": 178
   },
   {
     "country": "Malta",
@@ -292,12 +292,12 @@
     "work_count": 170
   },
   {
-    "country": "Nepal",
-    "work_count": 145
+    "country": "Kenya",
+    "work_count": 144
   },
   {
-    "country": "Kenya",
-    "work_count": 145
+    "country": "Nepal",
+    "work_count": 144
   },
   {
     "country": "Iceland",
@@ -305,7 +305,7 @@
   },
   {
     "country": "Georgia",
-    "work_count": 115
+    "work_count": 114
   },
   {
     "country": "Uruguay",
@@ -317,15 +317,15 @@
   },
   {
     "country": "Ethiopia",
-    "work_count": 100
+    "work_count": 99
   },
   {
     "country": "Dominican Republic",
-    "work_count": 98
+    "work_count": 97
   },
   {
     "country": "Palestine",
-    "work_count": 96
+    "work_count": 95
   },
   {
     "country": "Ghana",
@@ -333,27 +333,27 @@
   },
   {
     "country": "Latvia",
-    "work_count": 81
-  },
-  {
-    "country": "Ecuador",
     "work_count": 80
   },
   {
-    "country": "Uganda",
+    "country": "Ecuador",
     "work_count": 79
   },
   {
-    "country": "Venezuela",
-    "work_count": 75
+    "country": "Uganda",
+    "work_count": 78
   },
   {
     "country": "Armenia",
     "work_count": 74
   },
   {
-    "country": "Kuwait",
+    "country": "Venezuela",
     "work_count": 73
+  },
+  {
+    "country": "Kuwait",
+    "work_count": 72
   },
   {
     "country": "Burundi",
@@ -368,7 +368,7 @@
     "work_count": 56
   },
   {
-    "country": "North Macedonia",
+    "country": "Uzbekistan",
     "work_count": 51
   },
   {
@@ -376,7 +376,7 @@
     "work_count": 51
   },
   {
-    "country": "Uzbekistan",
+    "country": "North Macedonia",
     "work_count": 51
   },
   {
@@ -401,22 +401,22 @@
   },
   {
     "country": "Cambodia",
-    "work_count": 41
-  },
-  {
-    "country": "Sudan",
-    "work_count": 37
+    "work_count": 40
   },
   {
     "country": "Senegal",
     "work_count": 36
   },
   {
-    "country": "Cuba",
-    "work_count": 35
+    "country": "Sudan",
+    "work_count": 36
   },
   {
     "country": "Tanzania",
+    "work_count": 35
+  },
+  {
+    "country": "Cuba",
     "work_count": 35
   },
   {
@@ -432,11 +432,11 @@
     "work_count": 30
   },
   {
-    "country": "Myanmar",
-    "work_count": 28
+    "country": "Mongolia",
+    "work_count": 27
   },
   {
-    "country": "Mongolia",
+    "country": "Myanmar",
     "work_count": 27
   },
   {
@@ -445,14 +445,14 @@
   },
   {
     "country": "Bolivia",
-    "work_count": 24
-  },
-  {
-    "country": "Puerto Rico",
-    "work_count": 20
+    "work_count": 23
   },
   {
     "country": "Mali",
+    "work_count": 20
+  },
+  {
+    "country": "Puerto Rico",
     "work_count": 20
   },
   {
@@ -468,27 +468,27 @@
     "work_count": 18
   },
   {
-    "country": "Bahrain",
-    "work_count": 16
-  },
-  {
     "country": "Libya",
     "work_count": 16
-  },
-  {
-    "country": "Moldova",
-    "work_count": 15
   },
   {
     "country": "Kyrgyzstan",
     "work_count": 15
   },
   {
-    "country": "Benin",
-    "work_count": 12
+    "country": "Moldova",
+    "work_count": 15
+  },
+  {
+    "country": "Bahrain",
+    "work_count": 15
   },
   {
     "country": "French Polynesia",
+    "work_count": 12
+  },
+  {
+    "country": "Benin",
     "work_count": 12
   },
   {
@@ -496,11 +496,11 @@
     "work_count": 12
   },
   {
-    "country": "Trinidad and Tobago",
+    "country": "Maldives",
     "work_count": 11
   },
   {
-    "country": "Maldives",
+    "country": "Trinidad and Tobago",
     "work_count": 11
   },
   {
@@ -508,11 +508,11 @@
     "work_count": 10
   },
   {
-    "country": "Mauritius",
+    "country": "Albania",
     "work_count": 9
   },
   {
-    "country": "Albania",
+    "country": "Mauritius",
     "work_count": 9
   },
   {
@@ -520,20 +520,24 @@
     "work_count": 8
   },
   {
+    "country": "Mozambique",
+    "work_count": 7
+  },
+  {
     "country": "Paraguay",
     "work_count": 7
   },
   {
-    "country": "Mozambique",
-    "work_count": 7
+    "country": "DR Congo",
+    "work_count": 6
   },
   {
     "country": "Madagascar",
     "work_count": 6
   },
   {
-    "country": "DR Congo",
-    "work_count": 6
+    "country": "Panama",
+    "work_count": 5
   },
   {
     "country": "North Korea",
@@ -544,19 +548,7 @@
     "work_count": 5
   },
   {
-    "country": "Panama",
-    "work_count": 5
-  },
-  {
-    "country": "Guadeloupe",
-    "work_count": 4
-  },
-  {
-    "country": "Honduras",
-    "work_count": 4
-  },
-  {
-    "country": "Togo",
+    "country": "Afghanistan",
     "work_count": 4
   },
   {
@@ -564,16 +556,16 @@
     "work_count": 4
   },
   {
-    "country": "Afghanistan",
+    "country": "Honduras",
     "work_count": 4
   },
   {
-    "country": "Guatemala",
-    "work_count": 3
+    "country": "Guadeloupe",
+    "work_count": 4
   },
   {
-    "country": "Namibia",
-    "work_count": 3
+    "country": "Togo",
+    "work_count": 4
   },
   {
     "country": "Haiti",
@@ -584,31 +576,19 @@
     "work_count": 3
   },
   {
+    "country": "Namibia",
+    "work_count": 3
+  },
+  {
+    "country": "Guatemala",
+    "work_count": 3
+  },
+  {
     "country": "Zimbabwe",
     "work_count": 3
   },
   {
-    "country": "Botswana",
-    "work_count": 2
-  },
-  {
-    "country": "Jersey",
-    "work_count": 2
-  },
-  {
-    "country": "Bhutan",
-    "work_count": 2
-  },
-  {
     "country": "El Salvador",
-    "work_count": 2
-  },
-  {
-    "country": "Congo Republic",
-    "work_count": 2
-  },
-  {
-    "country": "Burkina Faso",
     "work_count": 2
   },
   {
@@ -616,11 +596,27 @@
     "work_count": 2
   },
   {
-    "country": "American Samoa",
+    "country": "Chad",
     "work_count": 2
   },
   {
-    "country": "Chad",
+    "country": "Congo Republic",
+    "work_count": 2
+  },
+  {
+    "country": "Botswana",
+    "work_count": 2
+  },
+  {
+    "country": "Burkina Faso",
+    "work_count": 2
+  },
+  {
+    "country": "Bhutan",
+    "work_count": 2
+  },
+  {
+    "country": "Jersey",
     "work_count": 2
   },
   {
@@ -628,11 +624,15 @@
     "work_count": 2
   },
   {
-    "country": "Vatican City",
+    "country": "American Samoa",
+    "work_count": 2
+  },
+  {
+    "country": "Liberia",
     "work_count": 1
   },
   {
-    "country": "Belize",
+    "country": "The Gambia",
     "work_count": 1
   },
   {
@@ -644,27 +644,7 @@
     "work_count": 1
   },
   {
-    "country": "Liberia",
-    "work_count": 1
-  },
-  {
-    "country": "Sierra Leone",
-    "work_count": 1
-  },
-  {
-    "country": "Guyana",
-    "work_count": 1
-  },
-  {
-    "country": "Micronesia",
-    "work_count": 1
-  },
-  {
-    "country": "Laos",
-    "work_count": 1
-  },
-  {
-    "country": "The Gambia",
+    "country": "Djibouti",
     "work_count": 1
   },
   {
@@ -672,11 +652,31 @@
     "work_count": 1
   },
   {
-    "country": "Djibouti",
+    "country": "Micronesia",
+    "work_count": 1
+  },
+  {
+    "country": "Belize",
+    "work_count": 1
+  },
+  {
+    "country": "Vatican City",
+    "work_count": 1
+  },
+  {
+    "country": "Sierra Leone",
     "work_count": 1
   },
   {
     "country": "Tajikistan",
+    "work_count": 1
+  },
+  {
+    "country": "Laos",
+    "work_count": 1
+  },
+  {
+    "country": "Guyana",
     "work_count": 1
   },
   {
