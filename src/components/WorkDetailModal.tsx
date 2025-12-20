@@ -192,40 +192,6 @@ export function WorkDetailModal({ work }: WorkDetailModalProps) {
         </div>
       )}
 
-      {(work.software_repository || (work.software_references && work.software_references.length > 0)) && (
-        <div>
-          <span className="text-gray-500 dark:text-neutral-400 uppercase text-xs tracking-wide">
-            Software
-          </span>
-          <div className="mt-1 space-y-1">
-            {work.software_repository && (
-              <p className="text-sm">
-                <a
-                  href={work.software_repository}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-gray-900 dark:text-neutral-100 hover:underline"
-                >
-                  {work.software_repository.replace(/^https?:\/\//, "")}
-                </a>
-              </p>
-            )}
-            {work.software_references?.map((url, idx) => (
-              <p key={idx} className="text-sm">
-                <a
-                  href={url}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-gray-900 dark:text-neutral-100 hover:underline"
-                >
-                  {url.replace(/^https?:\/\//, "")}
-                </a>
-              </p>
-            ))}
-          </div>
-        </div>
-      )}
-
       <hr className="border-gray-200 dark:border-neutral-700" />
 
       <div>
@@ -234,6 +200,43 @@ export function WorkDetailModal({ work }: WorkDetailModalProps) {
         </h4>
         <AuthorAffiliationList authors={authorAffiliations} />
       </div>
+
+      {(work.software_repository || (work.software_references && work.software_references.length > 0)) && (
+        <>
+          <hr className="border-gray-200 dark:border-neutral-700" />
+          <div>
+            <h4 className="text-xs font-semibold text-gray-500 dark:text-neutral-400 uppercase tracking-wide mb-3">
+              Software
+            </h4>
+            <div className="space-y-1">
+              {work.software_repository && (
+                <p className="text-sm">
+                  <a
+                    href={work.software_repository}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-gray-900 dark:text-neutral-100 hover:underline"
+                  >
+                    {work.software_repository.replace(/^https?:\/\//, "")}
+                  </a>
+                </p>
+              )}
+              {work.software_references?.map((url, idx) => (
+                <p key={idx} className="text-sm">
+                  <a
+                    href={url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-gray-900 dark:text-neutral-100 hover:underline"
+                  >
+                    {url.replace(/^https?:\/\//, "")}
+                  </a>
+                </p>
+              ))}
+            </div>
+          </div>
+        </>
+      )}
     </div>
   );
 }
