@@ -25,12 +25,17 @@ const FACET_LABELS: Record<string, string> = {
   country: "Country",
   types: "Organization Type",
   has_publication: "Related Work",
+  has_software: "Software",
 };
 
 const BOOLEAN_LABELS: Record<string, Record<string, string>> = {
   has_publication: {
     true: "Has related work",
     false: "No related work",
+  },
+  has_software: {
+    true: "Has software",
+    false: "No software",
   },
 };
 
@@ -223,6 +228,7 @@ export function FacetFilters({
     country: true,
     types: true,
     has_publication: true,
+    has_software: true,
   });
 
   const [showAll, setShowAll] = useState<Record<string, boolean>>({});
@@ -275,7 +281,7 @@ export function FacetFilters({
 
       const valuesArray = [...values];
       // Numeric and boolean fields don't need backticks in Typesense filter syntax
-      const isUnquoted = f === "year" || f === "has_publication";
+      const isUnquoted = f === "year" || f === "has_publication" || f === "has_software";
 
       // Preserve AND logic for fields like ror_ids (collaboration queries)
       if (andFields.has(f)) {
