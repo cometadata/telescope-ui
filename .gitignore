@@ -45,3 +45,4 @@ public/data/typesense-institutions.jsonl
 public/data/institutions/
 .vercel
 .env*.local
+.claude/

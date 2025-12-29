@@ -2,7 +2,7 @@
 
 import { useState, useEffect, useMemo } from "react";
 import { Header, Footer, TimeSeriesChart } from "@/components";
-import { useFilters } from "@/hooks";
+import { useFilters, useRequestToken } from "@/hooks";
 import { ARXIV_SUBJECTS } from "@/lib/subjects";
 import type { GlobalStats, OrganizationSummary, YearData, CountryData } from "@/types";
 import { StatsOverviewCards } from "./StatsOverviewCards";
@@ -19,6 +19,7 @@ export default function StatsPage() {
   const [loading, setLoading] = useState(true);
 
   const filters = useFilters();
+  const { getHeaders, loading: tokenLoading } = useRequestToken();
   const [filteredCounts, setFilteredCounts] = useState<Record<string, number>>({});
   const [additionalOrganizations, setAdditionalOrganizations] = useState<OrganizationSummary[]>([]);
   const [currentPage, setCurrentPage] = useState(1);
@@ -51,6 +52,10 @@ export default function StatsPage() {
 
   useEffect(() => {
     async function fetchFilteredCounts() {
+      if (tokenLoading) {
+        return;
+      }
+
       if (!filters.year && !filters.subject && !filters.country) {
         setFilteredCounts({});
         setAdditionalOrganizations([]);
@@ -71,7 +76,9 @@ export default function StatsPage() {
           per_page: "0",
         });
 
-        const response = await fetch(`/api/search?${params}`);
+        const response = await fetch(`/api/search?${params}`, {
+          headers: getHeaders(),
+        });
         if (response.ok) {
           const data = await response.json();
           const rorFacet = data.facet_counts?.find(
@@ -141,7 +148,7 @@ export default function StatsPage() {
     }
 
     fetchFilteredCounts();
-  }, [filters.year, filters.subject, filters.country, topOrganizations]);
+  }, [filters.year, filters.subject, filters.country, topOrganizations, tokenLoading, getHeaders]);
 
   const countries = useMemo(() => {
     const hasFilters = filters.year || filters.subject;
