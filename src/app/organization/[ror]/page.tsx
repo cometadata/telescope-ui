@@ -3,7 +3,7 @@
 import { useState, useEffect, useMemo, use } from "react";
 import Link from "next/link";
 import { Header, Footer, TimeSeriesChart } from "@/components";
-import { useOrganization, useFilters } from "@/hooks";
+import { useOrganization, useFilters, useRequestToken } from "@/hooks";
 import { OrganizationHeader } from "./OrganizationHeader";
 import { ResearchAreas } from "./ResearchAreas";
 import { CollaboratorsSection } from "./CollaboratorsSection";
@@ -17,11 +17,16 @@ export default function OrganizationPage({
   const { organization, loading, error } = useOrganization(ror);
 
   const filters = useFilters();
+  const { getHeaders, loading: tokenLoading } = useRequestToken();
   const [filteredCollabCounts, setFilteredCollabCounts] = useState<Record<string, number>>({});
   const [filterLoading, setFilterLoading] = useState(false);
 
   useEffect(() => {
     async function fetchFilteredCollabCounts() {
+      if (tokenLoading) {
+        return;
+      }
+
       if (!organization || (!filters.year && !filters.subject)) {
         setFilteredCollabCounts({});
         return;
@@ -41,7 +46,9 @@ export default function OrganizationPage({
           per_page: "0",
         });
 
-        const response = await fetch(`/api/search?${params}`);
+        const response = await fetch(`/api/search?${params}`, {
+          headers: getHeaders(),
+        });
         if (response.ok) {
           const data = await response.json();
           const rorFacet = data.facet_counts?.find(
@@ -69,7 +76,7 @@ export default function OrganizationPage({
     }
 
     fetchFilteredCollabCounts();
-  }, [organization, filters.year, filters.subject]);
+  }, [organization, filters.year, filters.subject, tokenLoading, getHeaders]);
 
   const collaboratorCountries = useMemo(() => {
     if (!organization) return [];
