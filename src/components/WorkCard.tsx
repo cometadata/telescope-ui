@@ -176,17 +176,7 @@ export function WorkCard({ work }: WorkCardProps) {
     <Dialog.Root open={dialogOpen} onOpenChange={setDialogOpen} modal={false}>
       <div className="bg-white dark:bg-neutral-900 rounded-lg p-4 sm:p-6 border border-gray-200 dark:border-neutral-700">
         <WorkCardContent work={work} onTitleClick={() => setDialogOpen(true)} />
-        <div className="mt-3 pt-3 border-t border-gray-100 dark:border-neutral-800 flex gap-2">
-          {work.publication_link && (
-            <a
-              href={work.publication_link}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="px-3 py-1.5 text-sm text-gray-700 dark:text-neutral-300 bg-gray-100 dark:bg-neutral-800 hover:bg-gray-200 dark:hover:bg-neutral-700 rounded-lg transition-colors mr-auto"
-            >
-              Related Work
-            </a>
-          )}
+        <div className="mt-3 pt-3 border-t border-gray-100 dark:border-neutral-800 flex justify-end gap-2">
           {work.software_repository && (
             <a
               href={work.software_repository}
@@ -195,6 +185,16 @@ export function WorkCard({ work }: WorkCardProps) {
               className="px-3 py-1.5 text-sm text-gray-700 dark:text-neutral-300 bg-gray-100 dark:bg-neutral-800 hover:bg-gray-200 dark:hover:bg-neutral-700 rounded-lg transition-colors"
             >
               Software
+            </a>
+          )}
+          {work.publication_link && (
+            <a
+              href={work.publication_link}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="px-3 py-1.5 text-sm text-gray-700 dark:text-neutral-300 bg-gray-100 dark:bg-neutral-800 hover:bg-gray-200 dark:hover:bg-neutral-700 rounded-lg transition-colors"
+            >
+              Related Work
             </a>
           )}
           <a
