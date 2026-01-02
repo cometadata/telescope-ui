@@ -81,6 +81,8 @@ export interface WorkDocument {
   software_repository?: string;
   software_references?: string[];
   has_software?: boolean;
+  has_software_repository?: boolean;
+  has_software_references?: boolean;
 }
 
 export function parseAuthorAffiliations(work: WorkDocument): AuthorAffiliation[] {
@@ -190,7 +192,7 @@ export async function searchWorks(params: SearchParams) {
     query_by: params.query_by || "title,authors,searchable_names,affiliations,arxiv_id,doi",
     filter_by: params.filter_by || "",
     sort_by: params.sort_by || "_text_match:desc,year:desc",
-    facet_by: params.facet_by || "year,subject_codes,countries,has_publication,has_software",
+    facet_by: params.facet_by || "year,subject_codes,countries,has_publication,has_software_repository,has_software_references",
     max_facet_values: params.max_facet_values || 200,
     page: params.page || 1,
     per_page: params.per_page || 20,
@@ -222,6 +224,8 @@ export const worksSchema = {
     { name: "software_repository", type: "string" as const, optional: true },
     { name: "software_references", type: "string[]" as const, optional: true },
     { name: "has_software", type: "bool" as const, facet: true },
+    { name: "has_software_repository", type: "bool" as const, facet: true },
+    { name: "has_software_references", type: "bool" as const, facet: true },
   ],
   default_sorting_field: "year",
 };
