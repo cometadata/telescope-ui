@@ -111,7 +111,7 @@ export function WorkDetailModal({ work }: WorkDetailModalProps) {
         {work.software_repository && (
           <div>
             <span className="text-gray-500 dark:text-neutral-400 uppercase text-xs tracking-wide">
-              Repository
+              Software Repository
             </span>
             <p>
               <a
@@ -206,7 +206,7 @@ export function WorkDetailModal({ work }: WorkDetailModalProps) {
           <hr className="border-gray-200 dark:border-neutral-700" />
           <div>
             <h4 className="text-xs font-semibold text-gray-500 dark:text-neutral-400 uppercase tracking-wide mb-3">
-              Software
+              Software References
             </h4>
             <div className="space-y-1">
               {work.software_repository && (

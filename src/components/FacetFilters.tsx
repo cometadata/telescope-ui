@@ -25,7 +25,8 @@ const FACET_LABELS: Record<string, string> = {
   country: "Country",
   types: "Organization Type",
   has_publication: "Related Work",
-  has_software: "Software",
+  has_software_repository: "Software",
+  has_software_references: "Software",
 };
 
 const BOOLEAN_LABELS: Record<string, Record<string, string>> = {
@@ -33,9 +34,11 @@ const BOOLEAN_LABELS: Record<string, Record<string, string>> = {
     true: "Has related work",
     false: "No related work",
   },
-  has_software: {
-    true: "Has software",
-    false: "No software",
+  has_software_repository: {
+    true: "Repository",
+  },
+  has_software_references: {
+    true: "References",
   },
 };
 
@@ -228,7 +231,8 @@ export function FacetFilters({
     country: true,
     types: true,
     has_publication: true,
-    has_software: true,
+    has_software_repository: true,
+    has_software_references: true,
   });
 
   const [showAll, setShowAll] = useState<Record<string, boolean>>({});
@@ -281,7 +285,7 @@ export function FacetFilters({
 
       const valuesArray = [...values];
       // Numeric and boolean fields don't need backticks in Typesense filter syntax
-      const isUnquoted = f === "year" || f === "has_publication" || f === "has_software";
+      const isUnquoted = f === "year" || f === "has_publication" || f === "has_software_repository" || f === "has_software_references";
 
       // Preserve AND logic for fields like ror_ids (collaboration queries)
       if (andFields.has(f)) {
@@ -328,11 +332,18 @@ export function FacetFilters({
       </div>
 
       {facets.map((facet) => {
+        if (facet.field_name === "has_software_references") return null;
+
         const label = FACET_LABELS[facet.field_name] || facet.field_name;
         const isSectionOpen = sectionOpen[facet.field_name];
         const isShowingAll = showAll[facet.field_name] || false;
         const searchQuery = searchQueries[facet.field_name] || "";
         const activeFacetFilters = activeFilters[facet.field_name] || new Set();
+
+        const softwareReferencesFacet = facet.field_name === "has_software_repository"
+          ? facets.find((f) => f.field_name === "has_software_references")
+          : null;
+        const softwareReferencesFilters = activeFilters["has_software_references"] || new Set();
 
         // Year "0" represents works without dates - hide from UI
         const baseCounts = facet.field_name === "year"
@@ -346,10 +357,15 @@ export function FacetFilters({
             })
           : baseCounts;
 
+        const isSoftwareFacet = facet.field_name === "has_software_repository";
+        const labelFilteredCounts = isSoftwareFacet
+          ? filteredCounts.filter(({ value }) => BOOLEAN_LABELS[facet.field_name]?.[value])
+          : filteredCounts;
+
         const hasMany = baseCounts.length > COLLAPSED_COUNT;
         const displayCounts = isShowingAll || searchQuery
-          ? filteredCounts
-          : filteredCounts.slice(0, COLLAPSED_COUNT);
+          ? labelFilteredCounts
+          : labelFilteredCounts.slice(0, COLLAPSED_COUNT);
         const hiddenCount = filteredCounts.length - COLLAPSED_COUNT;
 
         return (
@@ -403,6 +419,30 @@ export function FacetFilters({
                         title={getFacetValueDisplayName(facet.field_name, value)}
                       >
                         {getFacetValueDisplayName(facet.field_name, value)}
+                      </span>
+                      <span className="text-gray-400 dark:text-neutral-500 text-xs">
+                        {count.toLocaleString()}
+                      </span>
+                    </label>
+                  ))}
+                  {softwareReferencesFacet?.counts
+                    .filter(({ value }) => BOOLEAN_LABELS["has_software_references"]?.[value])
+                    .map(({ value, count }) => (
+                    <label
+                      key={`refs-${value}`}
+                      className="flex items-center gap-2 py-1 text-sm cursor-pointer hover:bg-gray-50 dark:hover:bg-neutral-800 px-2 rounded"
+                    >
+                      <input
+                        type="checkbox"
+                        checked={softwareReferencesFilters.has(value.toString())}
+                        onChange={() => toggleFilter("has_software_references", value.toString())}
+                        className="rounded border-gray-300 dark:border-neutral-600 text-black dark:text-white focus:ring-gray-500 dark:focus:ring-neutral-400 dark:bg-neutral-700"
+                      />
+                      <span
+                        className="flex-1 text-gray-600 dark:text-neutral-400 truncate"
+                        title={getFacetValueDisplayName("has_software_references", value)}
+                      >
+                        {getFacetValueDisplayName("has_software_references", value)}
                       </span>
                       <span className="text-gray-400 dark:text-neutral-500 text-xs">
                         {count.toLocaleString()}
