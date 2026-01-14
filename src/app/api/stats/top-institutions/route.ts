@@ -1,17 +1,13 @@
 import { NextResponse } from "next/server";
-import { fetchTopInstitutions } from "@/lib/stats-queries";
-
-// ISR configuration - on-demand revalidation only
-export const dynamic = "force-static";
-export const revalidate = false;
+import { getTopOrganizations } from "@/lib/data";
 
 export async function GET() {
   try {
-    const institutions = await fetchTopInstitutions(100);
+    const institutions = await getTopOrganizations(100);
 
     return NextResponse.json(institutions, {
       headers: {
-        "Cache-Control": "public, s-maxage=31536000",
+        "Cache-Control": "public, max-age=3600, s-maxage=86400",
       },
     });
   } catch (error) {
