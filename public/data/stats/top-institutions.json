@@ -1,96 +1,5 @@
 [
   {
-    "ror_id": "https://ror.org/05x2bcf33",
-    "name": "Carnegie Mellon University",
-    "aliases": [],
-    "acronyms": [
-      "CMU"
-    ],
-    "labels": [],
-    "city": "Pittsburgh",
-    "country": "United States",
-    "work_count": 9754
-  },
-  {
-    "ror_id": "https://ror.org/03cve4549",
-    "name": "Tsinghua University",
-    "aliases": [],
-    "acronyms": [
-      "THU"
-    ],
-    "labels": [
-      "清华大学"
-    ],
-    "city": "Beijing",
-    "country": "China",
-    "work_count": 9572
-  },
-  {
-    "ror_id": "https://ror.org/00f54p054",
-    "name": "Stanford University",
-    "aliases": [
-      "Leland Stanford Junior University"
-    ],
-    "acronyms": [
-      "SU"
-    ],
-    "labels": [
-      "Universidad Stanford"
-    ],
-    "city": "Stanford",
-    "country": "United States",
-    "work_count": 8224
-  },
-  {
-    "ror_id": "https://ror.org/01an7q238",
-    "name": "University of California, Berkeley",
-    "aliases": [
-      "Cal Berkeley",
-      "UC Berkeley",
-      "University of California at Berkeley"
-    ],
-    "acronyms": [
-      "UCB"
-    ],
-    "labels": [
-      "Universidad de California en Berkeley",
-      "Université de Californie à Berkeley"
-    ],
-    "city": "Berkeley",
-    "country": "United States",
-    "work_count": 6864
-  },
-  {
-    "ror_id": "https://ror.org/042nb2s44",
-    "name": "Massachusetts Institute of Technology",
-    "aliases": [],
-    "acronyms": [
-      "MIT"
-    ],
-    "labels": [
-      "Instituto Tecnológico de Massachusetts"
-    ],
-    "city": "Cambridge",
-    "country": "United States",
-    "work_count": 6789
-  },
-  {
-    "ror_id": "https://ror.org/02v51f717",
-    "name": "Peking University",
-    "aliases": [
-      "Imperial University of Peking"
-    ],
-    "acronyms": [
-      "PKU"
-    ],
-    "labels": [
-      "北京大学"
-    ],
-    "city": "Beijing",
-    "country": "China",
-    "work_count": 6423
-  },
-  {
     "ror_id": "https://ror.org/034t30j35",
     "name": "Chinese Academy of Sciences",
     "aliases": [],
@@ -102,576 +11,7 @@
     ],
     "city": "Beijing",
     "country": "China",
-    "work_count": 6377
-  },
-  {
-    "ror_id": "https://ror.org/0220qvk04",
-    "name": "Shanghai Jiao Tong University",
-    "aliases": [
-      "Shanghai Communications University",
-      "Shanghai Jiaotong University",
-      "上海交通大學"
-    ],
-    "acronyms": [
-      "SJTU"
-    ],
-    "labels": [
-      "上海交通大学"
-    ],
-    "city": "Shanghai",
-    "country": "China",
-    "work_count": 6115
-  },
-  {
-    "ror_id": "https://ror.org/00a2xv884",
-    "name": "Zhejiang University",
-    "aliases": [
-      "Chekiang University",
-      "Zheda"
-    ],
-    "acronyms": [
-      "ZJU"
-    ],
-    "labels": [
-      "浙江大学"
-    ],
-    "city": "Hangzhou",
-    "country": "China",
-    "work_count": 5681
-  },
-  {
-    "ror_id": "https://ror.org/052gg0110",
-    "name": "University of Oxford",
-    "aliases": [
-      "Oxford University"
-    ],
-    "acronyms": [],
-    "labels": [
-      "Prifysgol Rhydychen"
-    ],
-    "city": "Oxford",
-    "country": "United Kingdom",
-    "work_count": 5467
-  },
-  {
-    "ror_id": "https://ror.org/05qbk4x57",
-    "name": "University of Chinese Academy of Sciences",
-    "aliases": [],
-    "acronyms": [
-      "UCAS"
-    ],
-    "labels": [
-      "中国科学院大学"
-    ],
-    "city": "Beijing",
-    "country": "China",
-    "work_count": 4981
-  },
-  {
-    "ror_id": "https://ror.org/02e7b5302",
-    "name": "Nanyang Technological University",
-    "aliases": [],
-    "acronyms": [
-      "NTU"
-    ],
-    "labels": [
-      "Universiti Teknologi Nanyang",
-      "நன்யாங் தொழில்நுட்பப் பல்கலைக்கழகம்",
-      "南洋理工大学"
-    ],
-    "city": "Singapore",
-    "country": "Singapore",
-    "work_count": 4898
-  },
-  {
-    "ror_id": "https://ror.org/047426m28",
-    "name": "University of Illinois Urbana-Champaign",
-    "aliases": [
-      "University of Illinois"
-    ],
-    "acronyms": [
-      "UIUC"
-    ],
-    "labels": [
-      "Universidad de Illinois en Urbana-Champaign",
-      "Université de l'Illinois à Urbana-Champaign"
-    ],
-    "city": "Urbana",
-    "country": "United States",
-    "work_count": 4880
-  },
-  {
-    "ror_id": "https://ror.org/01zkghx44",
-    "name": "Georgia Institute of Technology",
-    "aliases": [
-      "Georgia Tech"
-    ],
-    "acronyms": [
-      "GT"
-    ],
-    "labels": [
-      "Instituto de Tecnología de Georgia"
-    ],
-    "city": "Atlanta",
-    "country": "United States",
-    "work_count": 4847
-  },
-  {
-    "ror_id": "https://ror.org/01tgyzw49",
-    "name": "National University of Singapore",
-    "aliases": [
-      "King Edward VII College of Medicine",
-      "Universiti Kebangsaan Singapura",
-      "University of Malaya"
-    ],
-    "acronyms": [
-      "NUS"
-    ],
-    "labels": [
-      "சிங்கப்பூர் தேசியப் பல்கலைக்கழகம்",
-      "新加坡国立大学"
-    ],
-    "city": "Singapore",
-    "country": "Singapore",
-    "work_count": 4831
-  },
-  {
-    "ror_id": "https://ror.org/05a28rw58",
-    "name": "ETH Zurich",
-    "aliases": [
-      "Eidgenössische Technische Hochschule Zürich",
-      "Politecnico Federale di Zurigo",
-      "Swiss Federal Institute of Technology in Zurich",
-      "École Polytechnique Fédérale de Zurich"
-    ],
-    "acronyms": [],
-    "labels": [
-      "ETH Zürich",
-      "ETH di Zurigo"
-    ],
-    "city": "Zurich",
-    "country": "Switzerland",
-    "work_count": 4582
-  },
-  {
-    "ror_id": "https://ror.org/00cvxb145",
-    "name": "University of Washington",
-    "aliases": [],
-    "acronyms": [
-      "UW"
-    ],
-    "labels": [
-      "Universidad de Washington",
-      "Université de Washington"
-    ],
-    "city": "Seattle",
-    "country": "United States",
-    "work_count": 4282
-  },
-  {
-    "ror_id": "https://ror.org/00t33hh48",
-    "name": "Chinese University of Hong Kong",
-    "aliases": [],
-    "acronyms": [
-      "CUHK"
-    ],
-    "labels": [
-      "香港中文大學"
-    ],
-    "city": "Hong Kong",
-    "country": "Hong Kong",
-    "work_count": 4245
-  },
-  {
-    "ror_id": "https://ror.org/041kmwe10",
-    "name": "Imperial College London",
-    "aliases": [
-      "Imperial College of Science, Technology and Medicine"
-    ],
-    "acronyms": [],
-    "labels": [
-      "Coleg Imperial Llundain"
-    ],
-    "city": "London",
-    "country": "United Kingdom",
-    "work_count": 4193
-  },
-  {
-    "ror_id": "https://ror.org/013meh722",
-    "name": "University of Cambridge",
-    "aliases": [
-      "Cambridge University"
-    ],
-    "acronyms": [],
-    "labels": [
-      "Prifysgol Caergrawnt"
-    ],
-    "city": "Cambridge",
-    "country": "United Kingdom",
-    "work_count": 4121
-  },
-  {
-    "ror_id": "https://ror.org/00q4vv597",
-    "name": "Hong Kong University of Science and Technology",
-    "aliases": [],
-    "acronyms": [
-      "HKUST"
-    ],
-    "labels": [],
-    "city": "Hong Kong",
-    "country": "Hong Kong",
-    "work_count": 4069
-  },
-  {
-    "ror_id": "https://ror.org/02kkvpp62",
-    "name": "Technical University of Munich",
-    "aliases": [
-      "Technische Universitaet Muenchen"
-    ],
-    "acronyms": [
-      "TUM"
-    ],
-    "labels": [
-      "Technische Universität München"
-    ],
-    "city": "Munich",
-    "country": "Germany",
-    "work_count": 4019
-  },
-  {
-    "ror_id": "https://ror.org/00hj54h04",
-    "name": "The University of Texas at Austin",
-    "aliases": [
-      "UT Austin"
-    ],
-    "acronyms": [],
-    "labels": [
-      "Universidad de Texas en Austin",
-      "Université du texas à austin"
-    ],
-    "city": "Austin",
-    "country": "United States",
-    "work_count": 3790
-  },
-  {
-    "ror_id": "https://ror.org/03taz7m60",
-    "name": "University of Southern California",
-    "aliases": [],
-    "acronyms": [
-      "USC"
-    ],
-    "labels": [
-      "Universidad del Sur de California",
-      "Université de Californie du Sud"
-    ],
-    "city": "Los Angeles",
-    "country": "United States",
-    "work_count": 3754
-  },
-  {
-    "ror_id": "https://ror.org/0190ak572",
-    "name": "New York University",
-    "aliases": [],
-    "acronyms": [
-      "NYU"
-    ],
-    "labels": [
-      "Universidad de Nueva York",
-      "Université de New York"
-    ],
-    "city": "New York",
-    "country": "United States",
-    "work_count": 3684
-  },
-  {
-    "ror_id": "https://ror.org/00jmfr291",
-    "name": "University of Michigan",
-    "aliases": [
-      "UMich"
-    ],
-    "acronyms": [
-      "UM"
-    ],
-    "labels": [
-      "University of Michigan–Ann Arbor",
-      "Université du Michigan"
-    ],
-    "city": "Ann Arbor",
-    "country": "United States",
-    "work_count": 3671
-  },
-  {
-    "ror_id": "https://ror.org/04c4dkn09",
-    "name": "University of Science and Technology of China",
-    "aliases": [],
-    "acronyms": [
-      "USTC"
-    ],
-    "labels": [
-      "中国科学技术大学"
-    ],
-    "city": "Hefei",
-    "country": "China",
-    "work_count": 3669
-  },
-  {
-    "ror_id": "https://ror.org/02jx3x895",
-    "name": "University College London",
-    "aliases": [
-      "London University",
-      "University College, London"
-    ],
-    "acronyms": [
-      "UCL"
-    ],
-    "labels": [
-      "Coleg Prifysgol Llundain"
-    ],
-    "city": "London",
-    "country": "United Kingdom",
-    "work_count": 3587
-  },
-  {
-    "ror_id": "https://ror.org/046rm7j60",
-    "name": "University of California, Los Angeles",
-    "aliases": [
-      "State Normal School at Los Angeles",
-      "UC Los Angeles",
-      "University of California Southern Branch",
-      "University of California at Los Angeles"
-    ],
-    "acronyms": [
-      "UCLA"
-    ],
-    "labels": [
-      "Universidad de California en Los Ángeles",
-      "Université de Californie à Los Angeles"
-    ],
-    "city": "Los Angeles",
-    "country": "United States",
-    "work_count": 3498
-  },
-  {
-    "ror_id": "https://ror.org/0168r3w48",
-    "name": "University of California San Diego",
-    "aliases": [
-      "UC San Diego",
-      "University of California, San Diego"
-    ],
-    "acronyms": [
-      "UCSD"
-    ],
-    "labels": [],
-    "city": "San Diego",
-    "country": "United States",
-    "work_count": 3446
-  },
-  {
-    "ror_id": "https://ror.org/00za53h95",
-    "name": "Johns Hopkins University",
-    "aliases": [],
-    "acronyms": [
-      "JHU"
-    ],
-    "labels": [
-      "Universidad Johns Hopkins"
-    ],
-    "city": "Baltimore",
-    "country": "United States",
-    "work_count": 3413
-  },
-  {
-    "ror_id": "https://ror.org/03dbr7087",
-    "name": "University of Toronto",
-    "aliases": [],
-    "acronyms": [],
-    "labels": [
-      "Université de Toronto"
-    ],
-    "city": "Toronto",
-    "country": "Canada",
-    "work_count": 3402
-  },
-  {
-    "ror_id": "https://ror.org/00hj8s172",
-    "name": "Columbia University",
-    "aliases": [
-      "Columbia College",
-      "Columbia University in the City of New York",
-      "King's College"
-    ],
-    "acronyms": [
-      "CU"
-    ],
-    "labels": [
-      "Universidad de Columbia"
-    ],
-    "city": "New York",
-    "country": "United States",
-    "work_count": 3280
-  },
-  {
-    "ror_id": "https://ror.org/00971b260",
-    "name": "Google DeepMind (United Kingdom)",
-    "aliases": [
-      "DeepMind"
-    ],
-    "acronyms": [],
-    "labels": [
-      "Google DeepMind"
-    ],
-    "city": "London",
-    "country": "United Kingdom",
-    "work_count": 3264
-  },
-  {
-    "ror_id": "https://ror.org/013q1eq08",
-    "name": "Fudan University",
-    "aliases": [
-      "復旦大學"
-    ],
-    "acronyms": [],
-    "labels": [
-      "复旦大学"
-    ],
-    "city": "Shanghai",
-    "country": "China",
-    "work_count": 3245
-  },
-  {
-    "ror_id": "https://ror.org/01nrxwf90",
-    "name": "University of Edinburgh",
-    "aliases": [],
-    "acronyms": [],
-    "labels": [
-      "Oilthigh Dhùn Èideann"
-    ],
-    "city": "Edinburgh",
-    "country": "United Kingdom",
-    "work_count": 3149
-  },
-  {
-    "ror_id": "https://ror.org/05apxxy63",
-    "name": "Korea Advanced Institute of Science and Technology",
-    "aliases": [],
-    "acronyms": [
-      "KAIST"
-    ],
-    "labels": [
-      "한국과학기술원"
-    ],
-    "city": "Daejeon",
-    "country": "South Korea",
-    "work_count": 3116
-  },
-  {
-    "ror_id": "https://ror.org/05bnh6r87",
-    "name": "Cornell University",
-    "aliases": [],
-    "acronyms": [
-      "CU"
-    ],
-    "labels": [
-      "Universidad Cornell"
-    ],
-    "city": "Ithaca",
-    "country": "United States",
-    "work_count": 3073
-  },
-  {
-    "ror_id": "https://ror.org/03vek6s52",
-    "name": "Harvard University",
-    "aliases": [],
-    "acronyms": [],
-    "labels": [
-      "Universidad de Harvard"
-    ],
-    "city": "Cambridge",
-    "country": "United States",
-    "work_count": 3027
-  },
-  {
-    "ror_id": "https://ror.org/00b30xv10",
-    "name": "University of Pennsylvania",
-    "aliases": [
-      "UPenn"
-    ],
-    "acronyms": [],
-    "labels": [],
-    "city": "Philadelphia",
-    "country": "United States",
-    "work_count": 3017
-  },
-  {
-    "ror_id": "https://ror.org/00hx57361",
-    "name": "Princeton University",
-    "aliases": [
-      "College of New Jersey"
-    ],
-    "acronyms": [],
-    "labels": [
-      "Universidad de Princeton",
-      "Université de princeton"
-    ],
-    "city": "Princeton",
-    "country": "United States",
-    "work_count": 2981
-  },
-  {
-    "ror_id": "https://ror.org/02s376052",
-    "name": "École Polytechnique Fédérale de Lausanne",
-    "aliases": [],
-    "acronyms": [
-      "EPFL"
-    ],
-    "labels": [
-      "Swiss Federal Institute of Technology in Lausanne"
-    ],
-    "city": "Lausanne",
-    "country": "Switzerland",
-    "work_count": 2952
-  },
-  {
-    "ror_id": "https://ror.org/00d0nc645",
-    "name": "Microsoft (United States)",
-    "aliases": [
-      "Microsoft Corporation"
-    ],
-    "acronyms": [],
-    "labels": [],
-    "city": "Redmond",
-    "country": "United States",
-    "work_count": 2944
-  },
-  {
-    "ror_id": "https://ror.org/01yqg2h08",
-    "name": "Harbin Institute of Technology",
-    "aliases": [],
-    "acronyms": [
-      "HIT"
-    ],
-    "labels": [
-      "哈尔滨工业大学"
-    ],
-    "city": "Harbin",
-    "country": "China",
-    "work_count": 2844
-  },
-  {
-    "ror_id": "https://ror.org/00wk2mp56",
-    "name": "Beihang University",
-    "aliases": [
-      "Beijing University of Aeronautics and Astronautics"
-    ],
-    "acronyms": [
-      "BUAA"
-    ],
-    "labels": [
-      "北京航空航天大学"
-    ],
-    "city": "Beijing",
-    "country": "China",
-    "work_count": 2738
+    "work_count": 46870
   },
   {
     "ror_id": "https://ror.org/057zh3y96",
@@ -691,551 +31,84 @@
     ],
     "city": "Tokyo",
     "country": "Japan",
-    "work_count": 2699
+    "work_count": 36727
   },
   {
-    "ror_id": "https://ror.org/00k642b80",
-    "name": "Alibaba Group (China)",
+    "ror_id": "https://ror.org/01an7q238",
+    "name": "University of California, Berkeley",
     "aliases": [
-      "Alibaba",
-      "Alibaba Inc.",
-      "Qwen",
-      "Qwen Team",
-      "Qwen.AI",
-      "Ālǐbābā Jítuán Kònggǔ Yǒuxiàn Gōngsī"
-    ],
-    "acronyms": [],
-    "labels": [
-      "Alibaba Group",
-      "阿里巴巴集团控股有限公司"
-    ],
-    "city": "Hangzhou",
-    "country": "China",
-    "work_count": 2681
-  },
-  {
-    "ror_id": "https://ror.org/02zhqgq86",
-    "name": "University of Hong Kong",
-    "aliases": [
-      "Hong Kong University"
+      "Cal Berkeley",
+      "UC Berkeley",
+      "University of California at Berkeley"
     ],
     "acronyms": [
-      "HKU"
-    ],
-    "labels": [],
-    "city": "Pok Fu Lam",
-    "country": "Hong Kong",
-    "work_count": 2639
-  },
-  {
-    "ror_id": "https://ror.org/03wkvpx79",
-    "name": "Shanghai Artificial Intelligence Laboratory",
-    "aliases": [
-      "Shanghai AI Lab",
-      "Shanghai AI Laboratory"
-    ],
-    "acronyms": [],
-    "labels": [
-      "上海人工智能实验室"
-    ],
-    "city": "Shanghai",
-    "country": "China",
-    "work_count": 2541
-  },
-  {
-    "ror_id": "https://ror.org/0384j8v12",
-    "name": "The University of Sydney",
-    "aliases": [
-      "Sydney University",
-      "University of Sydney"
-    ],
-    "acronyms": [
-      "USYD"
-    ],
-    "labels": [],
-    "city": "Sydney",
-    "country": "Australia",
-    "work_count": 2468
-  },
-  {
-    "ror_id": "https://ror.org/01aff2v68",
-    "name": "University of Waterloo",
-    "aliases": [
-      "UWaterloo"
-    ],
-    "acronyms": [
-      "UW"
+      "UCB"
     ],
     "labels": [
-      "Université de waterloo"
+      "Universidad de California en Berkeley",
+      "Université de Californie à Berkeley"
     ],
-    "city": "Waterloo",
-    "country": "Canada",
-    "work_count": 2243
-  },
-  {
-    "ror_id": "https://ror.org/01rxvg760",
-    "name": "Nanjing University",
-    "aliases": [
-      "Nanking University"
-    ],
-    "acronyms": [
-      "NJU",
-      "NU"
-    ],
-    "labels": [
-      "南京大学"
-    ],
-    "city": "Nanjing",
-    "country": "China",
-    "work_count": 2212
-  },
-  {
-    "ror_id": "https://ror.org/047s2c258",
-    "name": "University of Maryland, College Park",
-    "aliases": [],
-    "acronyms": [
-      "UMD"
-    ],
-    "labels": [
-      "Universidad de Maryland",
-      "Université du Maryland"
-    ],
-    "city": "College Park",
+    "city": "Berkeley",
     "country": "United States",
-    "work_count": 2164
+    "work_count": 34772
   },
   {
-    "ror_id": "https://ror.org/04dkp9463",
-    "name": "University of Amsterdam",
-    "aliases": [],
-    "acronyms": [
-      "UvA"
-    ],
-    "labels": [
-      "Universiteit van Amsterdam"
-    ],
-    "city": "Amsterdam",
-    "country": "The Netherlands",
-    "work_count": 2162
-  },
-  {
-    "ror_id": "https://ror.org/03jdj4y14",
-    "name": "Nvidia (United States)",
+    "ror_id": "https://ror.org/052gg0110",
+    "name": "University of Oxford",
     "aliases": [
-      "NVIDIA Corporation"
+      "Oxford University"
     ],
     "acronyms": [],
-    "labels": [],
-    "city": "Santa Clara",
+    "labels": [
+      "Prifysgol Rhydychen"
+    ],
+    "city": "Oxford",
+    "country": "United Kingdom",
+    "work_count": 31811
+  },
+  {
+    "ror_id": "https://ror.org/00f54p054",
+    "name": "Stanford University",
+    "aliases": [
+      "Leland Stanford Junior University"
+    ],
+    "acronyms": [
+      "SU"
+    ],
+    "labels": [
+      "Universidad Stanford"
+    ],
+    "city": "Stanford",
     "country": "United States",
-    "work_count": 2156
+    "work_count": 30380
   },
   {
-    "ror_id": "https://ror.org/00p991c53",
-    "name": "Huazhong University of Science and Technology",
-    "aliases": [
-      "Huázhōng Kējì Dàxué"
-    ],
+    "ror_id": "https://ror.org/042nb2s44",
+    "name": "Massachusetts Institute of Technology",
+    "aliases": [],
     "acronyms": [
-      "HUST"
+      "MIT"
     ],
     "labels": [
-      "华中科技大学"
+      "Instituto Tecnológico de Massachusetts"
     ],
-    "city": "Wuhan",
-    "country": "China",
-    "work_count": 2112
-  },
-  {
-    "ror_id": "https://ror.org/04h9pn542",
-    "name": "Seoul National University",
-    "aliases": [
-      "Seoul Daehakgyo"
-    ],
-    "acronyms": [
-      "SNU"
-    ],
-    "labels": [
-      "서울대학교"
-    ],
-    "city": "Seoul",
-    "country": "South Korea",
-    "work_count": 2090
-  },
-  {
-    "ror_id": "https://ror.org/01y2jtd41",
-    "name": "University of Wisconsin–Madison",
-    "aliases": [
-      "UW–Madison"
-    ],
-    "acronyms": [
-      "UW"
-    ],
-    "labels": [
-      "Universidad de Wisconsin-Madison",
-      "Université du Wisconsin à Madison"
-    ],
-    "city": "Madison",
+    "city": "Cambridge",
     "country": "United States",
-    "work_count": 2021
+    "work_count": 30178
   },
   {
-    "ror_id": "https://ror.org/0030zas98",
-    "name": "Hong Kong Polytechnic University",
+    "ror_id": "https://ror.org/013meh722",
+    "name": "University of Cambridge",
     "aliases": [
-      "PolyU"
-    ],
-    "acronyms": [
-      "HKPU"
-    ],
-    "labels": [
-      "香港理工大學"
-    ],
-    "city": "Hong Kong",
-    "country": "Hong Kong",
-    "work_count": 2001
-  },
-  {
-    "ror_id": "https://ror.org/03efmqc40",
-    "name": "Arizona State University",
-    "aliases": [],
-    "acronyms": [
-      "ASU"
-    ],
-    "labels": [
-      "Universidad Estatal de Arizona",
-      "Université d'État de l'Arizona"
-    ],
-    "city": "Tempe",
-    "country": "United States",
-    "work_count": 1972
-  },
-  {
-    "ror_id": "https://ror.org/0161xgx34",
-    "name": "Université de Montréal",
-    "aliases": [],
-    "acronyms": [
-      "UdeM"
-    ],
-    "labels": [
-      "University of Montreal"
-    ],
-    "city": "Montreal",
-    "country": "Canada",
-    "work_count": 1958
-  },
-  {
-    "ror_id": "https://ror.org/00py81415",
-    "name": "Duke University",
-    "aliases": [],
-    "acronyms": [],
-    "labels": [
-      "Universidad de Duke"
-    ],
-    "city": "Durham",
-    "country": "United States",
-    "work_count": 1956
-  },
-  {
-    "ror_id": "https://ror.org/04qr3zq92",
-    "name": "University of Electronic Science and Technology of China",
-    "aliases": [],
-    "acronyms": [
-      "UESTC"
-    ],
-    "labels": [
-      "电子科技大学"
-    ],
-    "city": "Chengdu",
-    "country": "China",
-    "work_count": 1945
-  },
-  {
-    "ror_id": "https://ror.org/01pxwe438",
-    "name": "McGill University",
-    "aliases": [],
-    "acronyms": [],
-    "labels": [
-      "Université McGill"
-    ],
-    "city": "Montreal",
-    "country": "Canada",
-    "work_count": 1923
-  },
-  {
-    "ror_id": "https://ror.org/02e2c7k09",
-    "name": "Delft University of Technology",
-    "aliases": [
-      "TU Delft"
+      "Cambridge University"
     ],
     "acronyms": [],
     "labels": [
-      "Technische Universiteit Delft"
+      "Prifysgol Caergrawnt"
     ],
-    "city": "Delft",
-    "country": "The Netherlands",
-    "work_count": 1922
-  },
-  {
-    "ror_id": "https://ror.org/04w9fbh59",
-    "name": "Beijing University of Posts and Telecommunications",
-    "aliases": [],
-    "acronyms": [
-      "BUPT"
-    ],
-    "labels": [
-      "北京邮电大学"
-    ],
-    "city": "Beijing",
-    "country": "China",
-    "work_count": 1864
-  },
-  {
-    "ror_id": "https://ror.org/00njsd438",
-    "name": "Google (United States)",
-    "aliases": [
-      "Googleplex"
-    ],
-    "acronyms": [],
-    "labels": [],
-    "city": "Mountain View",
-    "country": "United States",
-    "work_count": 1848
-  },
-  {
-    "ror_id": "https://ror.org/03q8dnn23",
-    "name": "City University of Hong Kong",
-    "aliases": [],
-    "acronyms": [],
-    "labels": [],
-    "city": "Hong Kong",
-    "country": "Hong Kong",
-    "work_count": 1820
-  },
-  {
-    "ror_id": "https://ror.org/02bfwt286",
-    "name": "Monash University",
-    "aliases": [],
-    "acronyms": [],
-    "labels": [],
-    "city": "Melbourne",
-    "country": "Australia",
-    "work_count": 1811
-  },
-  {
-    "ror_id": "https://ror.org/033vjfk17",
-    "name": "Wuhan University",
-    "aliases": [],
-    "acronyms": [
-      "WHU"
-    ],
-    "labels": [
-      "武汉大学"
-    ],
-    "city": "Wuhan",
-    "country": "China",
-    "work_count": 1782
-  },
-  {
-    "ror_id": "https://ror.org/03qryx823",
-    "name": "Technion – Israel Institute of Technology",
-    "aliases": [
-      "Technion"
-    ],
-    "acronyms": [],
-    "labels": [
-      "הטכניון – מכון טכנולוגי לישראל",
-      "جامعة تخنيون"
-    ],
-    "city": "Haifa",
-    "country": "Israel",
-    "work_count": 1781
-  },
-  {
-    "ror_id": "https://ror.org/03rmrcq20",
-    "name": "University of British Columbia",
-    "aliases": [],
-    "acronyms": [
-      "UBC"
-    ],
-    "labels": [
-      "Université de la colombie-britannique"
-    ],
-    "city": "Vancouver",
-    "country": "Canada",
-    "work_count": 1779
-  },
-  {
-    "ror_id": "https://ror.org/017zhmm22",
-    "name": "Xi'an Jiaotong University",
-    "aliases": [
-      "Xi'an Jiao Tong University",
-      "Xian Jiaotong University"
-    ],
-    "acronyms": [
-      "XJTU"
-    ],
-    "labels": [
-      "西安交通大学"
-    ],
-    "city": "Xi'an",
-    "country": "China",
-    "work_count": 1779
-  },
-  {
-    "ror_id": "https://ror.org/01f5ytq51",
-    "name": "Texas A&M University",
-    "aliases": [],
-    "acronyms": [
-      "TAMU"
-    ],
-    "labels": [],
-    "city": "College Station",
-    "country": "United States",
-    "work_count": 1760
-  },
-  {
-    "ror_id": "https://ror.org/05vt9qd57",
-    "name": "Rutgers, The State University of New Jersey",
-    "aliases": [
-      "Rutgers",
-      "Rutgers University"
-    ],
-    "acronyms": [
-      "RU"
-    ],
-    "labels": [],
-    "city": "New Brunswick",
-    "country": "United States",
-    "work_count": 1708
-  },
-  {
-    "ror_id": "https://ror.org/03kqdja62",
-    "name": "Vector Institute",
-    "aliases": [
-      "Vector Institute for Artificial Intelligence"
-    ],
-    "acronyms": [],
-    "labels": [
-      "Institut de Vector"
-    ],
-    "city": "Toronto",
-    "country": "Canada",
-    "work_count": 1693
-  },
-  {
-    "ror_id": "https://ror.org/03qdqbt06",
-    "name": "Peng Cheng Laboratory",
-    "aliases": [
-      "Shenzhen Cyberspace Science and Technology Laboratory"
-    ],
-    "acronyms": [],
-    "labels": [
-      "鹏城实验室"
-    ],
-    "city": "Shenzhen",
-    "country": "China",
-    "work_count": 1670
-  },
-  {
-    "ror_id": "https://ror.org/019wvm592",
-    "name": "Australian National University",
-    "aliases": [],
-    "acronyms": [
-      "ANU"
-    ],
-    "labels": [],
-    "city": "Canberra",
-    "country": "Australia",
-    "work_count": 1655
-  },
-  {
-    "ror_id": "https://ror.org/0160cpw27",
-    "name": "University of Alberta",
-    "aliases": [
-      "UAlberta"
-    ],
-    "acronyms": [],
-    "labels": [
-      "Université de l'Alberta"
-    ],
-    "city": "Edmonton",
-    "country": "Canada",
-    "work_count": 1637
-  },
-  {
-    "ror_id": "https://ror.org/04p491231",
-    "name": "Pennsylvania State University",
-    "aliases": [
-      "Penn State"
-    ],
-    "acronyms": [
-      "PSU"
-    ],
-    "labels": [
-      "Universidad Estatal de Pensilvania",
-      "Université d'État de Pennsylvanie"
-    ],
-    "city": "State College",
-    "country": "United States",
-    "work_count": 1628
-  },
-  {
-    "ror_id": "https://ror.org/03f0f6041",
-    "name": "University of Technology Sydney",
-    "aliases": [],
-    "acronyms": [
-      "UTS"
-    ],
-    "labels": [],
-    "city": "Sydney",
-    "country": "Australia",
-    "work_count": 1624
-  },
-  {
-    "ror_id": "https://ror.org/01skt4w74",
-    "name": "Beijing Institute of Technology",
-    "aliases": [],
-    "acronyms": [
-      "BIT"
-    ],
-    "labels": [
-      "北京理工大学"
-    ],
-    "city": "Beijing",
-    "country": "China",
-    "work_count": 1620
-  },
-  {
-    "ror_id": "https://ror.org/03v76x132",
-    "name": "Yale University",
-    "aliases": [
-      "Collegiate School",
-      "Yale College"
-    ],
-    "acronyms": [],
-    "labels": [
-      "Universidad Yale"
-    ],
-    "city": "New Haven",
-    "country": "United States",
-    "work_count": 1616
-  },
-  {
-    "ror_id": "https://ror.org/0072zz521",
-    "name": "University of Massachusetts Amherst",
-    "aliases": [
-      "UMass Amherst"
-    ],
-    "acronyms": [],
-    "labels": [
-      "Universidad de Massachusetts Amherst",
-      "Université du massachusetts à amherst"
-    ],
-    "city": "Amherst Center",
-    "country": "United States",
-    "work_count": 1595
+    "city": "Cambridge",
+    "country": "United Kingdom",
+    "work_count": 28685
   },
   {
     "ror_id": "https://ror.org/05dxps055",
@@ -1251,102 +124,281 @@
     ],
     "city": "Pasadena",
     "country": "United States",
-    "work_count": 1588
+    "work_count": 27886
   },
   {
-    "ror_id": "https://ror.org/0064kty71",
-    "name": "Sun Yat-sen University",
+    "ror_id": "https://ror.org/03cve4549",
+    "name": "Tsinghua University",
+    "aliases": [],
+    "acronyms": [
+      "THU"
+    ],
+    "labels": [
+      "清华大学"
+    ],
+    "city": "Beijing",
+    "country": "China",
+    "work_count": 27512
+  },
+  {
+    "ror_id": "https://ror.org/00hx57361",
+    "name": "Princeton University",
+    "aliases": [
+      "College of New Jersey"
+    ],
+    "acronyms": [],
+    "labels": [
+      "Universidad de Princeton",
+      "Université de princeton"
+    ],
+    "city": "Princeton",
+    "country": "United States",
+    "work_count": 27273
+  },
+  {
+    "ror_id": "https://ror.org/02v51f717",
+    "name": "Peking University",
+    "aliases": [
+      "Imperial University of Peking"
+    ],
+    "acronyms": [
+      "PKU"
+    ],
+    "labels": [
+      "北京大学"
+    ],
+    "city": "Beijing",
+    "country": "China",
+    "work_count": 24779
+  },
+  {
+    "ror_id": "https://ror.org/05qbk4x57",
+    "name": "University of Chinese Academy of Sciences",
+    "aliases": [],
+    "acronyms": [
+      "UCAS"
+    ],
+    "labels": [
+      "中国科学院大学"
+    ],
+    "city": "Beijing",
+    "country": "China",
+    "work_count": 22593
+  },
+  {
+    "ror_id": "https://ror.org/00jmfr291",
+    "name": "University of Michigan",
+    "aliases": [
+      "UMich"
+    ],
+    "acronyms": [
+      "UM"
+    ],
+    "labels": [
+      "University of Michigan–Ann Arbor",
+      "Université du Michigan"
+    ],
+    "city": "Ann Arbor",
+    "country": "United States",
+    "work_count": 22090
+  },
+  {
+    "ror_id": "https://ror.org/047426m28",
+    "name": "University of Illinois Urbana-Champaign",
+    "aliases": [
+      "University of Illinois"
+    ],
+    "acronyms": [
+      "UIUC"
+    ],
+    "labels": [
+      "Universidad de Illinois en Urbana-Champaign",
+      "Université de l'Illinois à Urbana-Champaign"
+    ],
+    "city": "Urbana",
+    "country": "United States",
+    "work_count": 20599
+  },
+  {
+    "ror_id": "https://ror.org/03vek6s52",
+    "name": "Harvard University",
     "aliases": [],
     "acronyms": [],
     "labels": [
-      "中山大学"
+      "Universidad de Harvard"
     ],
-    "city": "Guangzhou",
-    "country": "China",
-    "work_count": 1588
+    "city": "Cambridge",
+    "country": "United States",
+    "work_count": 20483
   },
   {
-    "ror_id": "https://ror.org/0220mzb33",
-    "name": "King's College London",
+    "ror_id": "https://ror.org/04c4dkn09",
+    "name": "University of Science and Technology of China",
     "aliases": [],
     "acronyms": [
-      "KCL"
+      "USTC"
     ],
     "labels": [
-      "Coleg y Brenin, Llundain"
+      "中国科学技术大学"
+    ],
+    "city": "Hefei",
+    "country": "China",
+    "work_count": 20230
+  },
+  {
+    "ror_id": "https://ror.org/05x2bcf33",
+    "name": "Carnegie Mellon University",
+    "aliases": [],
+    "acronyms": [
+      "CMU"
+    ],
+    "labels": [],
+    "city": "Pittsburgh",
+    "country": "United States",
+    "work_count": 20065
+  },
+  {
+    "ror_id": "https://ror.org/00cvxb145",
+    "name": "University of Washington",
+    "aliases": [],
+    "acronyms": [
+      "UW"
+    ],
+    "labels": [
+      "Universidad de Washington",
+      "Université de Washington"
+    ],
+    "city": "Seattle",
+    "country": "United States",
+    "work_count": 19489
+  },
+  {
+    "ror_id": "https://ror.org/02kpeqv85",
+    "name": "Kyoto University",
+    "aliases": [
+      "Kyōto daigaku"
+    ],
+    "acronyms": [],
+    "labels": [
+      "京都大学"
+    ],
+    "city": "Kyoto",
+    "country": "Japan",
+    "work_count": 18852
+  },
+  {
+    "ror_id": "https://ror.org/047s2c258",
+    "name": "University of Maryland, College Park",
+    "aliases": [],
+    "acronyms": [
+      "UMD"
+    ],
+    "labels": [
+      "Universidad de Maryland",
+      "Université du Maryland"
+    ],
+    "city": "College Park",
+    "country": "United States",
+    "work_count": 18715
+  },
+  {
+    "ror_id": "https://ror.org/00hj8s172",
+    "name": "Columbia University",
+    "aliases": [
+      "Columbia College",
+      "Columbia University in the City of New York",
+      "King's College"
+    ],
+    "acronyms": [
+      "CU"
+    ],
+    "labels": [
+      "Universidad de Columbia"
+    ],
+    "city": "New York",
+    "country": "United States",
+    "work_count": 18397
+  },
+  {
+    "ror_id": "https://ror.org/0220qvk04",
+    "name": "Shanghai Jiao Tong University",
+    "aliases": [
+      "Shanghai Communications University",
+      "Shanghai Jiaotong University",
+      "上海交通大學"
+    ],
+    "acronyms": [
+      "SJTU"
+    ],
+    "labels": [
+      "上海交通大学"
+    ],
+    "city": "Shanghai",
+    "country": "China",
+    "work_count": 18287
+  },
+  {
+    "ror_id": "https://ror.org/05a28rw58",
+    "name": "ETH Zurich",
+    "aliases": [
+      "Eidgenössische Technische Hochschule Zürich",
+      "Politecnico Federale di Zurigo",
+      "Swiss Federal Institute of Technology in Zurich",
+      "École Polytechnique Fédérale de Zurich"
+    ],
+    "acronyms": [],
+    "labels": [
+      "ETH Zürich",
+      "ETH di Zurigo"
+    ],
+    "city": "Zurich",
+    "country": "Switzerland",
+    "work_count": 18202
+  },
+  {
+    "ror_id": "https://ror.org/05qrfxd25",
+    "name": "Russian Academy of Sciences",
+    "aliases": [
+      "Rossíiskaya Akadémiya Naúk"
+    ],
+    "acronyms": [
+      "RAS"
+    ],
+    "labels": [
+      "Российская академия наук"
+    ],
+    "city": "Moscow",
+    "country": "Russia",
+    "work_count": 17944
+  },
+  {
+    "ror_id": "https://ror.org/03dbr7087",
+    "name": "University of Toronto",
+    "aliases": [],
+    "acronyms": [],
+    "labels": [
+      "Université de Toronto"
+    ],
+    "city": "Toronto",
+    "country": "Canada",
+    "work_count": 17895
+  },
+  {
+    "ror_id": "https://ror.org/02jx3x895",
+    "name": "University College London",
+    "aliases": [
+      "London University",
+      "University College, London"
+    ],
+    "acronyms": [
+      "UCL"
+    ],
+    "labels": [
+      "Coleg Prifysgol Llundain"
     ],
     "city": "London",
     "country": "United Kingdom",
-    "work_count": 1580
-  },
-  {
-    "ror_id": "https://ror.org/04mhzgx49",
-    "name": "Tel Aviv University",
-    "aliases": [],
-    "acronyms": [
-      "TAU"
-    ],
-    "labels": [
-      "جامعة تل أبيب"
-    ],
-    "city": "Tel Aviv",
-    "country": "Israel",
-    "work_count": 1566
-  },
-  {
-    "ror_id": "https://ror.org/0258gkt32",
-    "name": "Mohamed bin Zayed University of Artificial Intelligence",
-    "aliases": [],
-    "acronyms": [
-      "MBZUAI"
-    ],
-    "labels": [
-      "جامعة محمد بن زايد للذكاء الاصطناعي"
-    ],
-    "city": "Abu Dhabi",
-    "country": "United Arab Emirates",
-    "work_count": 1564
-  },
-  {
-    "ror_id": "https://ror.org/05f950310",
-    "name": "KU Leuven",
-    "aliases": [
-      "Catholic University of Leuven",
-      "University of Leuven"
-    ],
-    "acronyms": [
-      "KUL"
-    ],
-    "labels": [
-      "Katholieke Universiteit Leuven"
-    ],
-    "city": "Leuven",
-    "country": "Belgium",
-    "work_count": 1563
-  },
-  {
-    "ror_id": "https://ror.org/00cmhce21",
-    "name": "Huawei Technologies (China)",
-    "aliases": [],
-    "acronyms": [],
-    "labels": [
-      "华为技术有限公司"
-    ],
-    "city": "Shenzhen",
-    "country": "China",
-    "work_count": 1501
-  },
-  {
-    "ror_id": "https://ror.org/04mv4n011",
-    "name": "Amazon (United States)",
-    "aliases": [
-      "Amazon.com"
-    ],
-    "acronyms": [],
-    "labels": [],
-    "city": "Seattle",
-    "country": "United States",
-    "work_count": 1498
+    "work_count": 17889
   },
   {
     "ror_id": "https://ror.org/024mw5h28",
@@ -1363,24 +415,425 @@
     ],
     "city": "Chicago",
     "country": "United States",
-    "work_count": 1488
+    "work_count": 17313
   },
   {
-    "ror_id": "https://ror.org/026vcq606",
-    "name": "KTH Royal Institute of Technology",
+    "ror_id": "https://ror.org/041kmwe10",
+    "name": "Imperial College London",
     "aliases": [
-      "Royal Institute of Technology"
+      "Imperial College of Science, Technology and Medicine"
+    ],
+    "acronyms": [],
+    "labels": [
+      "Coleg Imperial Llundain"
+    ],
+    "city": "London",
+    "country": "United Kingdom",
+    "work_count": 17300
+  },
+  {
+    "ror_id": "https://ror.org/01tgyzw49",
+    "name": "National University of Singapore",
+    "aliases": [
+      "King Edward VII College of Medicine",
+      "Universiti Kebangsaan Singapura",
+      "University of Malaya"
     ],
     "acronyms": [
-      "KTH"
+      "NUS"
     ],
     "labels": [
-      "Kungliga Tekniska högskolan",
-      "Kuninkaallinen teknillinen korkeakoulu"
+      "சிங்கப்பூர் தேசியப் பல்கலைக்கழகம்",
+      "新加坡国立大学"
     ],
-    "city": "Stockholm",
-    "country": "Sweden",
-    "work_count": 1482
+    "city": "Singapore",
+    "country": "Singapore",
+    "work_count": 17236
+  },
+  {
+    "ror_id": "https://ror.org/04p491231",
+    "name": "Pennsylvania State University",
+    "aliases": [
+      "Penn State"
+    ],
+    "acronyms": [
+      "PSU"
+    ],
+    "labels": [
+      "Universidad Estatal de Pensilvania",
+      "Université d'État de Pennsylvanie"
+    ],
+    "city": "State College",
+    "country": "United States",
+    "work_count": 16862
+  },
+  {
+    "ror_id": "https://ror.org/05bnh6r87",
+    "name": "Cornell University",
+    "aliases": [],
+    "acronyms": [
+      "CU"
+    ],
+    "labels": [
+      "Universidad Cornell"
+    ],
+    "city": "Ithaca",
+    "country": "United States",
+    "work_count": 16438
+  },
+  {
+    "ror_id": "https://ror.org/00za53h95",
+    "name": "Johns Hopkins University",
+    "aliases": [],
+    "acronyms": [
+      "JHU"
+    ],
+    "labels": [
+      "Universidad Johns Hopkins"
+    ],
+    "city": "Baltimore",
+    "country": "United States",
+    "work_count": 15978
+  },
+  {
+    "ror_id": "https://ror.org/00hj54h04",
+    "name": "The University of Texas at Austin",
+    "aliases": [
+      "UT Austin"
+    ],
+    "acronyms": [],
+    "labels": [
+      "Universidad de Texas en Austin",
+      "Université du texas à austin"
+    ],
+    "city": "Austin",
+    "country": "United States",
+    "work_count": 15957
+  },
+  {
+    "ror_id": "https://ror.org/03m2x1q45",
+    "name": "University of Arizona",
+    "aliases": [],
+    "acronyms": [
+      "UA"
+    ],
+    "labels": [
+      "Universidad de Arizona"
+    ],
+    "city": "Tucson",
+    "country": "United States",
+    "work_count": 15300
+  },
+  {
+    "ror_id": "https://ror.org/01nrxwf90",
+    "name": "University of Edinburgh",
+    "aliases": [],
+    "acronyms": [],
+    "labels": [
+      "Oilthigh Dhùn Èideann"
+    ],
+    "city": "Edinburgh",
+    "country": "United Kingdom",
+    "work_count": 15298
+  },
+  {
+    "ror_id": "https://ror.org/03c3r2d17",
+    "name": "Center for Astrophysics Harvard & Smithsonian",
+    "aliases": [
+      "Harvard–Smithsonian Center for Astrophysics"
+    ],
+    "acronyms": [
+      "CfA"
+    ],
+    "labels": [],
+    "city": "Cambridge",
+    "country": "United States",
+    "work_count": 14741
+  },
+  {
+    "ror_id": "https://ror.org/00a2xv884",
+    "name": "Zhejiang University",
+    "aliases": [
+      "Chekiang University",
+      "Zheda"
+    ],
+    "acronyms": [
+      "ZJU"
+    ],
+    "labels": [
+      "浙江大学"
+    ],
+    "city": "Hangzhou",
+    "country": "China",
+    "work_count": 14077
+  },
+  {
+    "ror_id": "https://ror.org/05vt9qd57",
+    "name": "Rutgers, The State University of New Jersey",
+    "aliases": [
+      "Rutgers",
+      "Rutgers University"
+    ],
+    "acronyms": [
+      "RU"
+    ],
+    "labels": [],
+    "city": "New Brunswick",
+    "country": "United States",
+    "work_count": 13883
+  },
+  {
+    "ror_id": "https://ror.org/0168r3w48",
+    "name": "University of California San Diego",
+    "aliases": [
+      "UC San Diego",
+      "University of California, San Diego"
+    ],
+    "acronyms": [
+      "UCSD"
+    ],
+    "labels": [],
+    "city": "San Diego",
+    "country": "United States",
+    "work_count": 13819
+  },
+  {
+    "ror_id": "https://ror.org/046rm7j60",
+    "name": "University of California, Los Angeles",
+    "aliases": [
+      "State Normal School at Los Angeles",
+      "UC Los Angeles",
+      "University of California Southern Branch",
+      "University of California at Los Angeles"
+    ],
+    "acronyms": [
+      "UCLA"
+    ],
+    "labels": [
+      "Universidad de California en Los Ángeles",
+      "Université de Californie à Los Angeles"
+    ],
+    "city": "Los Angeles",
+    "country": "United States",
+    "work_count": 13793
+  },
+  {
+    "ror_id": "https://ror.org/01e41cf67",
+    "name": "Los Alamos National Laboratory",
+    "aliases": [
+      "U.S. Department of Energy Los Alamos National Laboratory",
+      "U.S. Department of Energy National Nuclear Security Administration Los Alamos National Laboratory",
+      "United States Department of Energy Los Alamos National Laboratory",
+      "United States Department of Energy National Nuclear Security Administration Los Alamos National Laboratory"
+    ],
+    "acronyms": [
+      "LANL"
+    ],
+    "labels": [
+      "Laboratoire national de los alamos",
+      "Laboratorio Nacional de Los Álamos"
+    ],
+    "city": "Los Alamos",
+    "country": "United States",
+    "work_count": 13494
+  },
+  {
+    "ror_id": "https://ror.org/01aff2v68",
+    "name": "University of Waterloo",
+    "aliases": [
+      "UWaterloo"
+    ],
+    "acronyms": [
+      "UW"
+    ],
+    "labels": [
+      "Université de waterloo"
+    ],
+    "city": "Waterloo",
+    "country": "Canada",
+    "work_count": 13457
+  },
+  {
+    "ror_id": "https://ror.org/02t274463",
+    "name": "University of California, Santa Barbara",
+    "aliases": [
+      "UC Santa Barbara"
+    ],
+    "acronyms": [
+      "UCSB"
+    ],
+    "labels": [
+      "Universidad de California en Santa Bárbara",
+      "Université de Californie à Santa Barbara"
+    ],
+    "city": "Santa Barbara",
+    "country": "United States",
+    "work_count": 13363
+  },
+  {
+    "ror_id": "https://ror.org/00rs6vg23",
+    "name": "The Ohio State University",
+    "aliases": [],
+    "acronyms": [
+      "OSU"
+    ],
+    "labels": [
+      "Universidad Estatal de Ohio",
+      "Université d'État de l'Ohio"
+    ],
+    "city": "Columbus",
+    "country": "United States",
+    "work_count": 13192
+  },
+  {
+    "ror_id": "https://ror.org/04dkp9463",
+    "name": "University of Amsterdam",
+    "aliases": [],
+    "acronyms": [
+      "UvA"
+    ],
+    "labels": [
+      "Universiteit van Amsterdam"
+    ],
+    "city": "Amsterdam",
+    "country": "The Netherlands",
+    "work_count": 13066
+  },
+  {
+    "ror_id": "https://ror.org/01f5ytq51",
+    "name": "Texas A&M University",
+    "aliases": [],
+    "acronyms": [
+      "TAMU"
+    ],
+    "labels": [],
+    "city": "College Station",
+    "country": "United States",
+    "work_count": 12947
+  },
+  {
+    "ror_id": "https://ror.org/01zkghx44",
+    "name": "Georgia Institute of Technology",
+    "aliases": [
+      "Georgia Tech"
+    ],
+    "acronyms": [
+      "GT"
+    ],
+    "labels": [
+      "Instituto de Tecnología de Georgia"
+    ],
+    "city": "Atlanta",
+    "country": "United States",
+    "work_count": 12944
+  },
+  {
+    "ror_id": "https://ror.org/02e7b5302",
+    "name": "Nanyang Technological University",
+    "aliases": [],
+    "acronyms": [
+      "NTU"
+    ],
+    "labels": [
+      "Universiti Teknologi Nanyang",
+      "நன்யாங் தொழில்நுட்பப் பல்கலைக்கழகம்",
+      "南洋理工大学"
+    ],
+    "city": "Singapore",
+    "country": "Singapore",
+    "work_count": 12862
+  },
+  {
+    "ror_id": "https://ror.org/03v76x132",
+    "name": "Yale University",
+    "aliases": [
+      "Collegiate School",
+      "Yale College"
+    ],
+    "acronyms": [],
+    "labels": [
+      "Universidad Yale"
+    ],
+    "city": "New Haven",
+    "country": "United States",
+    "work_count": 12628
+  },
+  {
+    "ror_id": "https://ror.org/02jbv0t02",
+    "name": "Lawrence Berkeley National Laboratory",
+    "aliases": [
+      "Berkeley Lab",
+      "United States Department of Energy Office of Science Lawrence Berkeley National Laboratory"
+    ],
+    "acronyms": [
+      "LBL",
+      "LBNL"
+    ],
+    "labels": [
+      "Laboratoire national lawrence-berkeley"
+    ],
+    "city": "Berkeley",
+    "country": "United States",
+    "work_count": 12618
+  },
+  {
+    "ror_id": "https://ror.org/00b30xv10",
+    "name": "University of Pennsylvania",
+    "aliases": [
+      "UPenn"
+    ],
+    "acronyms": [],
+    "labels": [],
+    "city": "Philadelphia",
+    "country": "United States",
+    "work_count": 12449
+  },
+  {
+    "ror_id": "https://ror.org/02kkvpp62",
+    "name": "Technical University of Munich",
+    "aliases": [
+      "Technische Universitaet Muenchen"
+    ],
+    "acronyms": [
+      "TUM"
+    ],
+    "labels": [
+      "Technische Universität München"
+    ],
+    "city": "Munich",
+    "country": "Germany",
+    "work_count": 12394
+  },
+  {
+    "ror_id": "https://ror.org/03rmrcq20",
+    "name": "University of British Columbia",
+    "aliases": [],
+    "acronyms": [
+      "UBC"
+    ],
+    "labels": [
+      "Université de la colombie-britannique"
+    ],
+    "city": "Vancouver",
+    "country": "Canada",
+    "work_count": 12210
+  },
+  {
+    "ror_id": "https://ror.org/01rxvg760",
+    "name": "Nanjing University",
+    "aliases": [
+      "Nanking University"
+    ],
+    "acronyms": [
+      "NJU",
+      "NU"
+    ],
+    "labels": [
+      "南京大学"
+    ],
+    "city": "Nanjing",
+    "country": "China",
+    "work_count": 11961
   },
   {
     "ror_id": "https://ror.org/017zqws13",
@@ -1392,7 +845,447 @@
     "labels": [],
     "city": "Minneapolis",
     "country": "United States",
-    "work_count": 1479
+    "work_count": 11875
+  },
+  {
+    "ror_id": "https://ror.org/036rp1748",
+    "name": "Universidade de São Paulo",
+    "aliases": [
+      "Universidade de Sao Paulo",
+      "University of Sao Paulo"
+    ],
+    "acronyms": [
+      "USP"
+    ],
+    "labels": [
+      "University of São Paulo"
+    ],
+    "city": "São Paulo",
+    "country": "Brazil",
+    "work_count": 11411
+  },
+  {
+    "ror_id": "https://ror.org/027bh9e22",
+    "name": "Leiden University",
+    "aliases": [
+      "Rijksuniversiteit Leiden"
+    ],
+    "acronyms": [],
+    "labels": [
+      "Universiteit Leiden"
+    ],
+    "city": "Leiden",
+    "country": "The Netherlands",
+    "work_count": 11369
+  },
+  {
+    "ror_id": "https://ror.org/0384j8v12",
+    "name": "The University of Sydney",
+    "aliases": [
+      "Sydney University",
+      "University of Sydney"
+    ],
+    "acronyms": [
+      "USYD"
+    ],
+    "labels": [],
+    "city": "Sydney",
+    "country": "Australia",
+    "work_count": 11241
+  },
+  {
+    "ror_id": "https://ror.org/019wvm592",
+    "name": "Australian National University",
+    "aliases": [],
+    "acronyms": [
+      "ANU"
+    ],
+    "labels": [],
+    "city": "Canberra",
+    "country": "Australia",
+    "work_count": 11228
+  },
+  {
+    "ror_id": "https://ror.org/027m9bs27",
+    "name": "University of Manchester",
+    "aliases": [
+      "Manchester University",
+      "University of Manchester Institute of Science and Technology",
+      "Victoria University of Manchester"
+    ],
+    "acronyms": [],
+    "labels": [
+      "Prifysgol Manceinion"
+    ],
+    "city": "Manchester",
+    "country": "United Kingdom",
+    "work_count": 11201
+  },
+  {
+    "ror_id": "https://ror.org/013q1eq08",
+    "name": "Fudan University",
+    "aliases": [
+      "復旦大學"
+    ],
+    "acronyms": [],
+    "labels": [
+      "复旦大学"
+    ],
+    "city": "Shanghai",
+    "country": "China",
+    "work_count": 10749
+  },
+  {
+    "ror_id": "https://ror.org/035t8zc32",
+    "name": "The University of Osaka",
+    "aliases": [
+      "Osaka University",
+      "Ōsaka daigaku"
+    ],
+    "acronyms": [],
+    "labels": [
+      "大阪大学"
+    ],
+    "city": "Osaka",
+    "country": "Japan",
+    "work_count": 10696
+  },
+  {
+    "ror_id": "https://ror.org/04mhzgx49",
+    "name": "Tel Aviv University",
+    "aliases": [],
+    "acronyms": [
+      "TAU"
+    ],
+    "labels": [
+      "جامعة تل أبيب"
+    ],
+    "city": "Tel Aviv",
+    "country": "Israel",
+    "work_count": 10649
+  },
+  {
+    "ror_id": "https://ror.org/0171mag52",
+    "name": "Goddard Space Flight Center",
+    "aliases": [],
+    "acronyms": [
+      "GSFC"
+    ],
+    "labels": [
+      "Centro de Vuelo Espacial Goddard"
+    ],
+    "city": "Greenbelt",
+    "country": "United States",
+    "work_count": 10416
+  },
+  {
+    "ror_id": "https://ror.org/01dq60k83",
+    "name": "Tohoku University",
+    "aliases": [
+      "Tōhoku daigaku"
+    ],
+    "acronyms": [],
+    "labels": [
+      "東北大学"
+    ],
+    "city": "Sendai",
+    "country": "Japan",
+    "work_count": 10371
+  },
+  {
+    "ror_id": "https://ror.org/03taz7m60",
+    "name": "University of Southern California",
+    "aliases": [],
+    "acronyms": [
+      "USC"
+    ],
+    "labels": [
+      "Universidad del Sur de California",
+      "Université de Californie du Sud"
+    ],
+    "city": "Los Angeles",
+    "country": "United States",
+    "work_count": 10305
+  },
+  {
+    "ror_id": "https://ror.org/03prydq77",
+    "name": "University of Vienna",
+    "aliases": [],
+    "acronyms": [],
+    "labels": [
+      "Bécsi Egyetem",
+      "Sveučilište u Beču",
+      "Universität Wien",
+      "Univerza na Dunaju"
+    ],
+    "city": "Vienna",
+    "country": "Austria",
+    "work_count": 10264
+  },
+  {
+    "ror_id": "https://ror.org/05hs6h993",
+    "name": "Michigan State University",
+    "aliases": [],
+    "acronyms": [
+      "MSU"
+    ],
+    "labels": [
+      "Université d'État du michigan"
+    ],
+    "city": "East Lansing",
+    "country": "United States",
+    "work_count": 10153
+  },
+  {
+    "ror_id": "https://ror.org/00t33hh48",
+    "name": "Chinese University of Hong Kong",
+    "aliases": [],
+    "acronyms": [
+      "CUHK"
+    ],
+    "labels": [
+      "香港中文大學"
+    ],
+    "city": "Hong Kong",
+    "country": "Hong Kong",
+    "work_count": 10152
+  },
+  {
+    "ror_id": "https://ror.org/035b05819",
+    "name": "University of Copenhagen",
+    "aliases": [],
+    "acronyms": [
+      "UCPH"
+    ],
+    "labels": [
+      "Københavns Universitet",
+      "Universität Kopenhagen"
+    ],
+    "city": "Copenhagen",
+    "country": "Denmark",
+    "work_count": 10118
+  },
+  {
+    "ror_id": "https://ror.org/03xjwb503",
+    "name": "Université Paris-Saclay",
+    "aliases": [],
+    "acronyms": [],
+    "labels": [
+      "Paris-Saclayko Unibertsitatea",
+      "Universitat París-Saclay",
+      "University of Paris-Saclay"
+    ],
+    "city": "Gif-sur-Yvette",
+    "country": "France",
+    "work_count": 10044
+  },
+  {
+    "ror_id": "https://ror.org/01a77tt86",
+    "name": "University of Warwick",
+    "aliases": [
+      "Warwick University"
+    ],
+    "acronyms": [],
+    "labels": [
+      "Prifysgol Warwick"
+    ],
+    "city": "Coventry",
+    "country": "United Kingdom",
+    "work_count": 10000
+  },
+  {
+    "ror_id": "https://ror.org/01pxwe438",
+    "name": "McGill University",
+    "aliases": [],
+    "acronyms": [],
+    "labels": [
+      "Université McGill"
+    ],
+    "city": "Montreal",
+    "country": "Canada",
+    "work_count": 9892
+  },
+  {
+    "ror_id": "https://ror.org/04h9pn542",
+    "name": "Seoul National University",
+    "aliases": [
+      "Seoul Daehakgyo"
+    ],
+    "acronyms": [
+      "SNU"
+    ],
+    "labels": [
+      "서울대학교"
+    ],
+    "city": "Seoul",
+    "country": "South Korea",
+    "work_count": 9867
+  },
+  {
+    "ror_id": "https://ror.org/02ex6cf31",
+    "name": "Brookhaven National Laboratory",
+    "aliases": [
+      "Office of Science Brookhaven National Laboratory",
+      "United States Department of Energy Office of Science Brookhaven National Laboratory"
+    ],
+    "acronyms": [
+      "BNL"
+    ],
+    "labels": [],
+    "city": "Upton",
+    "country": "United States",
+    "work_count": 9381
+  },
+  {
+    "ror_id": "https://ror.org/00q4vv597",
+    "name": "Hong Kong University of Science and Technology",
+    "aliases": [],
+    "acronyms": [
+      "HKUST"
+    ],
+    "labels": [],
+    "city": "Hong Kong",
+    "country": "Hong Kong",
+    "work_count": 9341
+  },
+  {
+    "ror_id": "https://ror.org/05f950310",
+    "name": "KU Leuven",
+    "aliases": [
+      "Catholic University of Leuven",
+      "University of Leuven"
+    ],
+    "acronyms": [
+      "KUL"
+    ],
+    "labels": [
+      "Katholieke Universiteit Leuven"
+    ],
+    "city": "Leuven",
+    "country": "Belgium",
+    "work_count": 9277
+  },
+  {
+    "ror_id": "https://ror.org/0190ak572",
+    "name": "New York University",
+    "aliases": [],
+    "acronyms": [
+      "NYU"
+    ],
+    "labels": [
+      "Universidad de Nueva York",
+      "Université de New York"
+    ],
+    "city": "New York",
+    "country": "United States",
+    "work_count": 9266
+  },
+  {
+    "ror_id": "https://ror.org/02e2c7k09",
+    "name": "Delft University of Technology",
+    "aliases": [
+      "TU Delft"
+    ],
+    "acronyms": [],
+    "labels": [
+      "Technische Universiteit Delft"
+    ],
+    "city": "Delft",
+    "country": "The Netherlands",
+    "work_count": 9237
+  },
+  {
+    "ror_id": "https://ror.org/04chrp450",
+    "name": "Nagoya University",
+    "aliases": [
+      "Nagoya Daigaku"
+    ],
+    "acronyms": [],
+    "labels": [
+      "名古屋大学"
+    ],
+    "city": "Nagoya",
+    "country": "Japan",
+    "work_count": 9235
+  },
+  {
+    "ror_id": "https://ror.org/0316ej306",
+    "name": "Weizmann Institute of Science",
+    "aliases": [
+      "Machon Weizmann LeMada"
+    ],
+    "acronyms": [],
+    "labels": [
+      "מכון ויצמן למדע",
+      "معهد وايزمان للعلوم"
+    ],
+    "city": "Rehovot",
+    "country": "Israel",
+    "work_count": 9234
+  },
+  {
+    "ror_id": "https://ror.org/01dr6c206",
+    "name": "Polish Academy of Sciences",
+    "aliases": [],
+    "acronyms": [
+      "PAN"
+    ],
+    "labels": [
+      "Polska Akademia Nauk"
+    ],
+    "city": "Warsaw",
+    "country": "Poland",
+    "work_count": 9202
+  },
+  {
+    "ror_id": "https://ror.org/05gvnxz63",
+    "name": "Argonne National Laboratory",
+    "aliases": [
+      "United States Department of Energy Office of Science Argonne National Laboratory"
+    ],
+    "acronyms": [
+      "ANL"
+    ],
+    "labels": [
+      "Laboratorio Nacional Argonne"
+    ],
+    "city": "Lemont",
+    "country": "United States",
+    "work_count": 9086
+  },
+  {
+    "ror_id": "https://ror.org/02ttsq026",
+    "name": "University of Colorado Boulder",
+    "aliases": [
+      "CU-Boulder"
+    ],
+    "acronyms": [
+      "UCB"
+    ],
+    "labels": [
+      "Universidad de Colorado en Boulder",
+      "Université du Colorado à Boulder"
+    ],
+    "city": "Boulder",
+    "country": "United States",
+    "work_count": 9050
+  },
+  {
+    "ror_id": "https://ror.org/02y3ad647",
+    "name": "University of Florida",
+    "aliases": [
+      "University of the State of Florida"
+    ],
+    "acronyms": [
+      "UF"
+    ],
+    "labels": [
+      "Universidad de la Florida",
+      "Université de floride"
+    ],
+    "city": "Gainesville",
+    "country": "United States",
+    "work_count": 9037
   },
   {
     "ror_id": "https://ror.org/04gyf1771",
@@ -1409,62 +1302,219 @@
     ],
     "city": "Irvine",
     "country": "United States",
-    "work_count": 1475
+    "work_count": 8979
   },
   {
-    "ror_id": "https://ror.org/00rs6vg23",
-    "name": "The Ohio State University",
+    "ror_id": "https://ror.org/03efmqc40",
+    "name": "Arizona State University",
     "aliases": [],
     "acronyms": [
-      "OSU"
+      "ASU"
     ],
     "labels": [
-      "Universidad Estatal de Ohio",
-      "Université d'État de l'Ohio"
+      "Universidad Estatal de Arizona",
+      "Université d'État de l'Arizona"
     ],
-    "city": "Columbus",
+    "city": "Tempe",
     "country": "United States",
-    "work_count": 1464
+    "work_count": 8965
   },
   {
-    "ror_id": "https://ror.org/01y0j0j86",
-    "name": "Northwestern Polytechnical University",
+    "ror_id": "https://ror.org/03s65by71",
+    "name": "University of California, Santa Cruz",
     "aliases": [
-      "State Northwest Institute of Engineering",
-      "Xīběi Gōngyè Dàxué",
-      "Северо-западный политехнический университет"
+      "UC Santa Cruz"
     ],
     "acronyms": [
-      "NPU",
-      "NWPU"
+      "UCSC"
     ],
     "labels": [
-      "西北工业大学"
+      "Universidad de California en Santa Cruz",
+      "Université de Californie à Santa Cruz"
     ],
-    "city": "Xi'an",
-    "country": "China",
-    "work_count": 1438
-  },
-  {
-    "ror_id": "https://ror.org/000e0be47",
-    "name": "Northwestern University",
-    "aliases": [],
-    "acronyms": [
-      "NU"
-    ],
-    "labels": [],
-    "city": "Evanston",
+    "city": "Santa Cruz",
     "country": "United States",
-    "work_count": 1422
+    "work_count": 8949
   },
   {
-    "ror_id": "https://ror.org/0300m5276",
-    "name": "Microsoft Research Asia (China)",
+    "ror_id": "https://ror.org/026vcq606",
+    "name": "KTH Royal Institute of Technology",
+    "aliases": [
+      "Royal Institute of Technology"
+    ],
+    "acronyms": [
+      "KTH"
+    ],
+    "labels": [
+      "Kungliga Tekniska högskolan",
+      "Kuninkaallinen teknillinen korkeakoulu"
+    ],
+    "city": "Stockholm",
+    "country": "Sweden",
+    "work_count": 8864
+  },
+  {
+    "ror_id": "https://ror.org/01ryk1543",
+    "name": "University of Southampton",
     "aliases": [],
     "acronyms": [],
+    "labels": [
+      "Prifysgol Southampton"
+    ],
+    "city": "Southampton",
+    "country": "United Kingdom",
+    "work_count": 8844
+  },
+  {
+    "ror_id": "https://ror.org/03r8z3t63",
+    "name": "UNSW Sydney",
+    "aliases": [
+      "University of New South Wales"
+    ],
+    "acronyms": [
+      "UNSW"
+    ],
     "labels": [],
-    "city": "Beijing",
-    "country": "China",
-    "work_count": 1408
+    "city": "Sydney",
+    "country": "Australia",
+    "work_count": 8811
+  },
+  {
+    "ror_id": "https://ror.org/01ej9dk98",
+    "name": "The University of Melbourne",
+    "aliases": [
+      "Melbourne University",
+      "University of Melbourne"
+    ],
+    "acronyms": [],
+    "labels": [],
+    "city": "Melbourne",
+    "country": "Australia",
+    "work_count": 8807
+  },
+  {
+    "ror_id": "https://ror.org/02en5vm52",
+    "name": "Sorbonne Université",
+    "aliases": [
+      "Pierre and Marie Curie University",
+      "University of Paris-Sorbonne"
+    ],
+    "acronyms": [],
+    "labels": [
+      "Sorbonne University"
+    ],
+    "city": "Paris",
+    "country": "France",
+    "work_count": 8763
+  },
+  {
+    "ror_id": "https://ror.org/04t3en479",
+    "name": "Karlsruhe Institute of Technology",
+    "aliases": [
+      "Das Karlsruher Institut für Technologie (KIT) – Die Forschungsuniversität in der Helmholtz-Gemeinschaft",
+      "Karlsruhe Institute of Technology - The Research University in the Helmholtz Association"
+    ],
+    "acronyms": [
+      "KIT"
+    ],
+    "labels": [
+      "Karlsruher Institut für Technologie"
+    ],
+    "city": "Karlsruhe",
+    "country": "Germany",
+    "work_count": 8652
+  },
+  {
+    "ror_id": "https://ror.org/00py81415",
+    "name": "Duke University",
+    "aliases": [],
+    "acronyms": [],
+    "labels": [
+      "Universidad de Duke"
+    ],
+    "city": "Durham",
+    "country": "United States",
+    "work_count": 8556
+  },
+  {
+    "ror_id": "https://ror.org/01y2jtd41",
+    "name": "University of Wisconsin–Madison",
+    "aliases": [
+      "UW–Madison"
+    ],
+    "acronyms": [
+      "UW"
+    ],
+    "labels": [
+      "Universidad de Wisconsin-Madison",
+      "Université du Wisconsin à Madison"
+    ],
+    "city": "Madison",
+    "country": "United States",
+    "work_count": 8552
+  },
+  {
+    "ror_id": "https://ror.org/0153tk833",
+    "name": "University of Virginia",
+    "aliases": [],
+    "acronyms": [
+      "UVA"
+    ],
+    "labels": [
+      "Universidad de Virginia",
+      "Université de virginie"
+    ],
+    "city": "Charlottesville",
+    "country": "United States",
+    "work_count": 8539
+  },
+  {
+    "ror_id": "https://ror.org/01swzsf04",
+    "name": "University of Geneva",
+    "aliases": [
+      "Schola Genevensis"
+    ],
+    "acronyms": [
+      "UNIGE"
+    ],
+    "labels": [
+      "Università di Ginevra",
+      "Université de Genève"
+    ],
+    "city": "Geneva",
+    "country": "Switzerland",
+    "work_count": 8501
+  },
+  {
+    "ror_id": "https://ror.org/05qwgg493",
+    "name": "Boston University",
+    "aliases": [
+      "Boston U"
+    ],
+    "acronyms": [
+      "BU"
+    ],
+    "labels": [
+      "Universidad de Boston",
+      "Université de Boston"
+    ],
+    "city": "Boston",
+    "country": "United States",
+    "work_count": 8443
+  },
+  {
+    "ror_id": "https://ror.org/04d836q62",
+    "name": "TU Wien",
+    "aliases": [
+      "Technische Universität Wien",
+      "Vienna University of Technology"
+    ],
+    "acronyms": [
+      "TUW"
+    ],
+    "labels": [],
+    "city": "Vienna",
+    "country": "Austria",
+    "work_count": 8431
   }
 ]
