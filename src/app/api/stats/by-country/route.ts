@@ -1,17 +1,13 @@
 import { NextResponse } from "next/server";
-import { fetchByCountry } from "@/lib/stats-queries";
-
-// ISR configuration - on-demand revalidation only
-export const dynamic = "force-static";
-export const revalidate = false;
+import { getStatsByCountry } from "@/lib/data";
 
 export async function GET() {
   try {
-    const countryData = await fetchByCountry();
+    const countryData = await getStatsByCountry();
 
     return NextResponse.json(countryData, {
       headers: {
-        "Cache-Control": "public, s-maxage=31536000",
+        "Cache-Control": "public, max-age=3600, s-maxage=86400",
       },
     });
   } catch (error) {
