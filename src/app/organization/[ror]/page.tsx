@@ -19,6 +19,13 @@ export default function OrganizationPage({
   const filters = useFilters();
   const { getHeaders, loading: tokenLoading } = useRequestToken();
   const [filteredCollabCounts, setFilteredCollabCounts] = useState<Record<string, number>>({});
+  const [additionalCollaborators, setAdditionalCollaborators] = useState<{
+    ror_id: string;
+    name: string;
+    country: string;
+    collaboration_count: number;
+  }[]>([]);
+  const [filterQueryComplete, setFilterQueryComplete] = useState(false);
   const [filterLoading, setFilterLoading] = useState(false);
 
   useEffect(() => {
@@ -29,6 +36,8 @@ export default function OrganizationPage({
 
       if (!organization || (!filters.year && !filters.subject)) {
         setFilteredCollabCounts({});
+        setAdditionalCollaborators([]);
+        setFilterQueryComplete(false);
         return;
       }
 
@@ -56,17 +65,61 @@ export default function OrganizationPage({
           );
           if (rorFacet) {
             const counts: Record<string, number> = {};
+            const missingRorIds: string[] = [];
+            const knownRorIds = new Set(
+              organization.top_collaborators.flatMap(c => [
+                c.ror_id,
+                c.ror_id.replace("https://ror.org/", ""),
+                c.ror_id.startsWith("https://") ? c.ror_id : `https://ror.org/${c.ror_id}`
+              ])
+            );
+
             rorFacet.counts.forEach((c: { value: string; count: number }) => {
               // Skip the current organization itself
               if (c.value !== organization.ror_id) {
                 counts[c.value] = c.count;
                 // Store both formats for matching
                 const rorHash = c.value.replace("https://ror.org/", "");
+                const fullRorId = c.value.startsWith("https://")
+                  ? c.value
+                  : `https://ror.org/${c.value}`;
                 counts[rorHash] = c.count;
+                counts[fullRorId] = c.count;
+
+                if (!knownRorIds.has(c.value) && !knownRorIds.has(rorHash) && !knownRorIds.has(fullRorId)) {
+                  missingRorIds.push(rorHash);
+                }
               }
             });
             setFilteredCollabCounts(counts);
+
+            const topMissing = missingRorIds.slice(0, 100);
+            const additionalData = await Promise.all(
+              topMissing.map(async (rorHash) => {
+                try {
+                  const res = await fetch(`/data/institutions/${rorHash}.json`);
+                  if (res.ok) {
+                    const org = await res.json();
+                    return {
+                      ror_id: org.ror_id,
+                      name: org.name,
+                      country: org.country,
+                      collaboration_count: org.work_count,
+                    };
+                  }
+                } catch {
+                }
+                return null;
+              })
+            );
+            setAdditionalCollaborators(
+              additionalData.filter((c): c is NonNullable<typeof c> => c !== null)
+            );
+          } else {
+            setFilteredCollabCounts({});
+            setAdditionalCollaborators([]);
           }
+          setFilterQueryComplete(true);
         }
       } catch (error) {
         console.error("Failed to fetch filtered collaboration counts:", error);
@@ -80,9 +133,13 @@ export default function OrganizationPage({
 
   const collaboratorCountries = useMemo(() => {
     if (!organization) return [];
-    const countries = [...new Set(organization.top_collaborators.map(c => c.country))];
+    const hasApiFilters = filters.year || filters.subject;
+    const allCollaborators = hasApiFilters
+      ? [...organization.top_collaborators, ...additionalCollaborators]
+      : organization.top_collaborators;
+    const countries = [...new Set(allCollaborators.map(c => c.country))];
     return countries.sort();
-  }, [organization]);
+  }, [organization, additionalCollaborators, filters.year, filters.subject]);
 
   const years = useMemo(() => {
     if (!organization) return [];
@@ -92,16 +149,16 @@ export default function OrganizationPage({
   const filteredCollaborators = useMemo(() => {
     if (!organization) return [];
 
-    let collaborators = [...organization.top_collaborators];
+    const hasApiFilters = filters.year || filters.subject;
+    let collaborators = hasApiFilters && filterQueryComplete
+      ? [...organization.top_collaborators, ...additionalCollaborators]
+      : [...organization.top_collaborators];
 
-    // Country filter is client-side only
     if (filters.country) {
       collaborators = collaborators.filter(c => c.country === filters.country);
     }
 
-    // When year/subject filters are applied, use filtered counts and re-rank
-    const hasApiFilters = filters.year || filters.subject;
-    if (hasApiFilters && Object.keys(filteredCollabCounts).length > 0) {
+    if (hasApiFilters && filterQueryComplete) {
       collaborators = collaborators
         .map(c => {
           const rorHash = c.ror_id.replace("https://ror.org/", "");
@@ -113,7 +170,7 @@ export default function OrganizationPage({
     }
 
     return collaborators;
-  }, [organization, filters.country, filters.year, filters.subject, filteredCollabCounts]);
+  }, [organization, filters.country, filters.year, filters.subject, filteredCollabCounts, filterQueryComplete, additionalCollaborators]);
 
   const buildCollabSearchUrl = (collabRorId: string, collabName: string) => {
     if (!organization) return "/search";
