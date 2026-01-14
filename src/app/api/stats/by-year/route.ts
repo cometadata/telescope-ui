@@ -1,17 +1,13 @@
 import { NextResponse } from "next/server";
-import { fetchByYear } from "@/lib/stats-queries";
-
-// ISR configuration - on-demand revalidation only
-export const dynamic = "force-static";
-export const revalidate = false;
+import { getStatsByYear } from "@/lib/data";
 
 export async function GET() {
   try {
-    const yearData = await fetchByYear();
+    const yearData = await getStatsByYear();
 
     return NextResponse.json(yearData, {
       headers: {
-        "Cache-Control": "public, s-maxage=31536000",
+        "Cache-Control": "public, max-age=3600, s-maxage=86400",
       },
     });
   } catch (error) {

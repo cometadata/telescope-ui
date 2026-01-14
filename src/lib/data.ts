@@ -39,12 +39,11 @@ export async function getStatsByCountry(): Promise<CountryData[]> {
   return data || [];
 }
 
-export interface SubjectTrend {
-  subject: string;
-  count: number;
+export interface SubjectTrends {
+  [subjectCode: string]: YearData[];
 }
 
-export async function getSubjectTrends(): Promise<SubjectTrend[]> {
-  const data = await readStatsFile<SubjectTrend[]>("subject-trends.json");
-  return data || [];
+export async function getSubjectTrends(): Promise<SubjectTrends> {
+  const data = await readStatsFile<SubjectTrends>("subject-trends.json");
+  return data || {};
 }
