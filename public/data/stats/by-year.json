@@ -1,78 +1,150 @@
 [
   {
-    "year": 2007,
-    "count": 380
+    "year": 1989,
+    "count": 6
   },
   {
-    "year": 2008,
-    "count": 539
+    "year": 1990,
+    "count": 23
   },
   {
-    "year": 2009,
-    "count": 788
+    "year": 1991,
+    "count": 333
   },
   {
-    "year": 2010,
-    "count": 1105
-  },
-  {
-    "year": 2011,
-    "count": 1609
-  },
-  {
-    "year": 2012,
+    "year": 1992,
     "count": 2851
   },
   {
+    "year": 1993,
+    "count": 6024
+  },
+  {
+    "year": 1994,
+    "count": 9169
+  },
+  {
+    "year": 1995,
+    "count": 12539
+  },
+  {
+    "year": 1996,
+    "count": 15354
+  },
+  {
+    "year": 1997,
+    "count": 18892
+  },
+  {
+    "year": 1998,
+    "count": 23177
+  },
+  {
+    "year": 1999,
+    "count": 26351
+  },
+  {
+    "year": 2000,
+    "count": 29196
+  },
+  {
+    "year": 2001,
+    "count": 31472
+  },
+  {
+    "year": 2002,
+    "count": 34238
+  },
+  {
+    "year": 2003,
+    "count": 37442
+  },
+  {
+    "year": 2004,
+    "count": 41291
+  },
+  {
+    "year": 2005,
+    "count": 44282
+  },
+  {
+    "year": 2006,
+    "count": 47324
+  },
+  {
+    "year": 2007,
+    "count": 52375
+  },
+  {
+    "year": 2008,
+    "count": 55238
+  },
+  {
+    "year": 2009,
+    "count": 59930
+  },
+  {
+    "year": 2010,
+    "count": 65601
+  },
+  {
+    "year": 2011,
+    "count": 71422
+  },
+  {
+    "year": 2012,
+    "count": 78410
+  },
+  {
     "year": 2013,
-    "count": 3819
+    "count": 86493
   },
   {
     "year": 2014,
-    "count": 3934
+    "count": 90733
   },
   {
     "year": 2015,
-    "count": 5382
+    "count": 97950
   },
   {
     "year": 2016,
-    "count": 8732
+    "count": 105541
   },
   {
     "year": 2017,
-    "count": 13168
+    "count": 115199
   },
   {
     "year": 2018,
-    "count": 21112
+    "count": 130971
   },
   {
     "year": 2019,
-    "count": 30521
+    "count": 145757
   },
   {
     "year": 2020,
-    "count": 40573
+    "count": 165598
   },
   {
     "year": 2021,
-    "count": 45239
+    "count": 169160
   },
   {
     "year": 2022,
-    "count": 49533
+    "count": 173134
   },
   {
     "year": 2023,
-    "count": 61675
+    "count": 195385
   },
   {
     "year": 2024,
-    "count": 78224
+    "count": 227801
   },
   {
     "year": 2025,
-    "count": 53827
+    "count": 239183
   }
 ]
