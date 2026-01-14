@@ -402,7 +402,11 @@ export function FacetFilters({
                   </div>
                 )}
 
-                <div className="space-y-1">
+                <div className={`space-y-1 ${
+                  displayCounts.length > COLLAPSED_COUNT
+                    ? "max-h-56 overflow-y-auto"
+                    : ""
+                }`}>
                   {displayCounts.map(({ value, count }) => (
                     <label
                       key={value}
