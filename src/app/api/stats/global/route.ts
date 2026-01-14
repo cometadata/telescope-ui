@@ -1,17 +1,20 @@
 import { NextResponse } from "next/server";
-import { fetchGlobalStats } from "@/lib/stats-queries";
-
-// ISR configuration - on-demand revalidation only
-export const dynamic = "force-static";
-export const revalidate = false;
+import { getGlobalStats } from "@/lib/data";
 
 export async function GET() {
   try {
-    const stats = await fetchGlobalStats();
+    const stats = await getGlobalStats();
+
+    if (!stats) {
+      return NextResponse.json(
+        { error: "Stats data not available" },
+        { status: 404 }
+      );
+    }
 
     return NextResponse.json(stats, {
       headers: {
-        "Cache-Control": "public, s-maxage=31536000",
+        "Cache-Control": "public, max-age=3600, s-maxage=86400",
       },
     });
   } catch (error) {
